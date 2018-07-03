@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>McCree</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/mccree/mccree.png" class="portrait" alt="McCree" title="McCree">
+		<ul class="bio">
+		<li>Name: Jesse McCree</li>
+		<br/>
+		<li>Age: 37</li>
+		<br/>
+		<li>Role:  Offense  <img src="img/offense.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"><img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: American</li>
+		<br/>
+		<li>Voice Actor: Keith Ferguson</li>
+		</ul>
+		<br/>
+		<h1>McCree</h1>
+		<h3>"It's High Noon."</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Armed with his Peacekeeper revolver,
+McCree takes out targets with deadeye
+precision and dives out of danger with
+eagle-like speed.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">Armed with his Peacekeeper revolver,
+the outlaw Jesse McCree doles out
+justice on his own terms.</pre>
+		<pre class="summary" style="color: #f99e1a">McCree had already made a name for himself
+as a member of the notorious Deadlock Gang,
+which trafficked in illicit weapons and
+military hardware throughout the American
+Southwest, when he and his associates were
+busted in an Overwatch sting operation.
+With his expert marksmanship and
+resourcefulness, he was given the choice
+between rotting in a maximum-security
+lockup and joining Blackwatch, Overwatch's
+covert ops division.
+He chose the latter.</pre>
+		<pre class="summary">Although he was initially cynical, he came
+to believe that he could make amends for
+his past sins by righting the injustices
+of the world. McCree appreciated the
+flexibility afforded to the clandestine
+Blackwatch, unhindered by bureaucracy and
+red tape. But as Overwatch's influence
+waned, rogue elements within Blackwatch
+sought to bring down the organization and
+turn it to their own ends. Wanting no part
+of the infighting, McCree set off alone
+and went underground.</pre>
+		<pre class="summary" style="color: #f99e1a">He resurfaced several years later as a
+gunslinger for hire. But while McCree's
+talents are sought after by parties great
+and small, he fights only for causes
+he believes are just.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/mccree/peacekeeper.png" alt="Peacekeeper" title="Peacekeeper"><span class="skillname">Peacekeeper</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Single Shot Hitscan</li>
+    				<li><mark>Spread Angle:</mark> Pinpoint</li>
+    				<li><mark>Ammo:</mark> 6</li>
+    				<li><mark>Reload Time:</mark> 1.5 Seconds</li>
+    				<li><mark>Damage:</mark> 21 - 70</li>
+    				<li><mark>Rate of Fire:</mark> 2 Shots/Sec</li>
+    				<li><mark>Secondary:</mark> Fan the Hammer: Swiftly fire the entire clip.</li>
+    			</ul>
+    		</td>
+    		<td class="description">McCree fires off a round from his trusty six-shooter. He can fan the Peacekeeper’s hammer to swiftly unload the entire cylinder.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/mccree/flashbang.png" alt="Flashbang" title="Flashbang"><span class="skillname">Flashbang</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Splash Projectile</li>
+    				<li><mark>Max Range:</mark> 5 Meters</li>
+    				<li><mark>Cooldown:</mark> 10 Seconds</li>
+    				<li><mark>Duration:</mark> 0.7 Second Stun</li>
+    				<li><mark>Damage:</mark> 25</li>
+    				<li><mark>Area of Effect:</mark> 2 Meters</li>
+    			</ul>
+    		</td>
+    		<td class="description">McCree heaves a blinding grenade that explodes shortly after it leaves his hand. The blast staggers enemies in a small radius.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/mccree/combatroll.png" alt="Combat Roll" title="Combat Roll"><span class="skillname">Combat Roll</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Max Range:</mark> 6 Meters</li>
+    				<li><mark>Cooldown:</mark> 8 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">McCree dives in the direction he’s moving, effortlessly reloading his Peacekeeper in the process.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/mccree/deadeye.png" alt="Deadeye" title="Ultimate: Deadeye"><span class="skillname">Ultimate: Deadeye</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Rapid Fire Hitscan</li>
+    				<li><mark>Max Range:</mark> 200 Meters</li>
+    				<li><mark>Duration:</mark> Up to 6 Seconds</li>
+    				<li><mark>Damage:</mark> ~250 Per/Sec cast</li>
+    				<li><mark>Charge Required:</mark> 1500 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">Focus. Mark. Draw. McCree takes a few precious moments to aim; when he’s ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he’ll line up a killshot.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/mccree/classic.jpg" id="swap" alt="McCree Skins" title="Classic McCree">
+    	<table>
+    		<tr>
+    		<th colspan="5">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/ebony.jpg'; document.getElementById('swap').title='Ebony'">Ebony</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/lake.jpg'; document.getElementById('swap').title='Lake'">Lake</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/sage.jpg'; document.getElementById('swap').title='Sage'">Sage</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/wheat.jpg'; document.getElementById('swap').title='Wheat'">Wheat</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/royal.jpg'; document.getElementById('swap').title='Royal'">Royal</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/whitehat.jpg'; document.getElementById('swap').title='White Hat'">White Hat</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/ontherange.jpg'; document.getElementById('swap').title='On the Range'">On the Range</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/mccree/american.jpg'; document.getElementById('swap').title='American'">American</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/gambler.jpg'; document.getElementById('swap').title='Gambler'">Gambler</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/riverboat.jpg'; document.getElementById('swap').title='Riverboat'">Riverboat</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/mysteryman.jpg'; document.getElementById('swap').title='Mystery Man'">Mystery Man</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/vigilante_skin.jpg'; document.getElementById('swap').title='Vigilante'">Vigilante</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/scrooge.jpg'; document.getElementById('swap').title='Scrooge'">Scrooge</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/lifeguard.jpg'; document.getElementById('swap').title='Lifeguard'">Lifeguard</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/vanhelsing.jpg'; document.getElementById('swap').title='Van Helsing'">Van Helsing</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/magistrate.jpg'; document.getElementById('swap').title='Magistrate'">Magistrate</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/blackwatch.jpg'; document.getElementById('swap').title='Blackwatch'">Blackwatch</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/mccree/sherlock.jpg'; document.getElementById('swap').title='Sherlock'">Sherlock</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 195px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/gunspinning.gif'; document.getElementById('emoteswap').title='Gunspinning'">Gunspinning</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/mccree/hattip.gif'; document.getElementById('emoteswap').title='Hat Tip'">Hat Tip</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/spit.gif'; document.getElementById('emoteswap').title='Spit'">Spit</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/joker.gif'; document.getElementById('emoteswap').title='Joker'">Joker</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/takealoadoff.gif'; document.getElementById('emoteswap').title='Take a Load Off'">Take a Load Off</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/hattrick.gif'; document.getElementById('emoteswap').title='Hat Trick'">Hat Trick</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/mccree/linedance.gif'; document.getElementbyId('emoteswap').title='Line Dance'">Line Dance</button></li>
+    	</ul>
+    	<img src="img/mccree/heroic.gif" id="emoteswap" alt="McCree Emotes" title="McCree Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 330px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/mccree/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/mccree/rollingintoaction.gif'; document.getElementById('highlightswap').title='Rolling Into Action'">Rolling Into Action</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/mccree/theduel.gif'; document.getElementById('highlightswap').title='The Duel'">The Duel</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/mccree/thenamesmccree.gif'; document.getElementById('highlightswap').title='The Names McCree'">The Name's McCree</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/mccree/spark.gif'; document.getElementById('highlightswap').title='Spark'">Spark</button></li>
+    	</ul>
+    	<img src="img/mccree/heroic_intro.gif" id="highlightswap" alt="McCree Highlight Intros" title="McCree Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 27</div>
+	    	<img src="img/mccree/outlaw.jpg" style="width:100%">
+	    	<div class="caption">Outlaw</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 27</div>
+	    	<img src="img/mccree/skull.jpg" style="width:100%">
+	    	<div class="caption">Skull</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 27</div>
+	    	<img src="img/mccree/bamf.jpg" style="width:100%">
+	    	<div class="caption">BAMF</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 27</div>
+	    	<img src="img/mccree/spin.jpg" style="width:100%">
+	    	<div class="caption">Spin</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 27</div>
+	    	<img src="img/mccree/thenames.jpg" style="width:100%">
+	    	<div class="caption">The Name's</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 27</div>
+	    	<img src="img/mccree/tumbleweed.jpg" style="width:100%">
+	    	<div class="caption">Tumbleweed</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 27</div>
+	    	<img src="img/mccree/deadeye.jpg" style="width:100%">
+	    	<div class="caption">Deadeye</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 27</div>
+	    	<img src="img/mccree/badge.jpg" style="width:100%">
+	    	<div class="caption">Badge</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 27</div>
+	    	<img src="img/mccree/bang.jpg" style="width:100%">
+	    	<div class="caption">Bang!</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 27</div>
+	    	<img src="img/mccree/buckle.jpg" style="width:100%">
+	    	<div class="caption">Buckle</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 27</div>
+	    	<img src="img/mccree/draw.jpg" style="width:100%">
+	    	<div class="caption">Draw</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 27</div>
+	    	<img src="img/mccree/bullet.jpg" style="width:100%">
+	    	<div class="caption">Bullet</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 27</div>
+	    	<img src="img/mccree/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 27</div>
+	    	<img src="img/mccree/enigma.jpg" style="width:100%">
+	    	<div class="caption">Enigma</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 27</div>
+	    	<img src="img/mccree/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 27</div>
+	    	<img src="img/mccree/gunslinger.jpg" style="width:100%">
+	    	<div class="caption">Gunslinger</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 27</div>
+	    	<img src="img/mccree/highnoon.jpg" style="width:100%">
+	    	<div class="caption">High Noon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 27</div>
+	    	<img src="img/mccree/jesse.jpg" style="width:100%">
+	    	<div class="caption">Jesse</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 27</div>
+	    	<img src="img/mccree/noose.jpg" style="width:100%">
+	    	<div class="caption">Noose</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 27</div>
+	    	<img src="img/mccree/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 27</div>
+	    	<img src="img/mccree/target.jpg" style="width:100%">
+	    	<div class="caption">Target</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 27</div>
+	    	<img src="img/mccree/thumbsup.jpg" style="width:100%">
+	    	<div class="caption">Thumbs Up</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 27</div>
+	    	<img src="img/mccree/takeiteasy_spray.jpg" style="width:100%">
+	    	<div class="caption">Take It Easy</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 27</div>
+	    	<img src="img/mccree/vigilante.jpg" style="width:100%">
+	    	<div class="caption">Vigilante</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 27</div>
+	    	<img src="img/mccree/wanted.jpg" style="width:100%">
+	    	<div class="caption">Wanted</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 27</div>
+	    	<img src="img/mccree/yourfacehere.jpg" style="width:100%">
+	    	<div class="caption">Your Face Here</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/mccree/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/mccree/contemplative.jpg" alt="Contemplative" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/mccree/overtheshoulder.jpg" alt="Over The Shoulder" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/mccree/takeiteasy.jpg" alt="Take It Easy" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/mccree/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/mccree/fireinthehole.jpg" alt="Fire in the Hole" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+		    <img src="img/mccree/showdown.jpg" alt="Showdown" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<table class="footcol5">
+			<tr>
+				<th>Maps</th>
+			</tr>
+			<tr>
+				<td>Volskaya Industries</td>
+			</tr>
+			<tr>
+				<td>Watchpoint: Gibraltar</td>
+			</tr>
+		</table>
+		<table class="footcol6">
+			<tr>
+				<th>Lore</th>
+			</tr>
+			<tr>
+				<td>Animated Shorts</td>
+			</tr>
+		</table>
+		<img src="img/footer_logo.png" class="footerlogo">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>

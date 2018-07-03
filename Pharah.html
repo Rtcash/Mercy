@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pharah</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/pharah/pharah.png" class="portrait" alt="Pharah" title="Pharah">
+		<ul class="bio">
+		<li>Name: Fareeha Amari</li>
+		<br/>
+		<li>Age: 32</li>
+		<br/>
+		<li>Role:  Offense  <img src="img/offense.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: Egyptian</li>
+		<br/>
+		<li>Voice Actor: Jen Cohn</li>
+		</ul>
+		<br/>
+		<h1>Pharah</h1>
+		<h3>"Justice Rains From Above!"</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Soaring through the air in her
+combat armor, and armed with a launcher that
+lays down high-explosive rockets, Pharah
+is a force to be reckoned with.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">Fareeha Amari's commitment to duty
+runs in her blood. She comes from a long line
+of highly decorated soldiers and burns with
+the desire to serve with honor.</pre>
+		<pre class="summary" style="color: #f99e1a">As a child, Fareeha dreamed of following
+in her mother's footsteps and joining the
+global peacekeeping force, Overwatch. She
+enlisted in the Egyptian army, and her dogged
+persistence and tactical prowess caused her
+to rise up through the officer ranks. She was
+a courageous leader and earned the loyalty of
+all who served under her. With her exemplary
+record, Fareeha was well placed to join the
+ranks of Overwatch, but before she had that
+opportunity, Overwatch was disbanded.</pre>
+		<pre class="summary">After leaving the army with a commendation
+for distinguished service, she was offered
+employment with Helix Security International, a
+private security firm contracted to defend the
+artificial intelligence research facility beneath
+the Giza Plateau. The top-secret facility was
+touted as vital to the safety of not only the
+region but countries across the globe. Fareeha
+gladly accepted the choice assignment and received
+training in the Raptora Mark VI, an expeFrostbitental
+combat suit designed for rapid mobility
+and devastating firepower.</pre>
+		<pre class="summary" style="color: #f99e1a">Under the call sign "Pharah," she works to
+safeguard the AI installation. Though she mourns
+Overwatch's passing, she still dreams of fighting the
+good fight and making a difference
+on a global scale.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/pharah/rocketlauncher.png" alt="Rocket Launcher" title="Rocket Launcher"><span class="skillname">Rocket Launcher</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Splash Projectile</li>
+    				<li><mark>Spread Angle:</mark> Pinpoint</li>
+    				<li><mark>Ammo:</mark> 6</li>
+    				<li><mark>Reload Time:</mark> 1 Second</li>
+    				<li><mark>Damage:</mark> Direct Hit - 120; Splash Min/Max - 20/80; Self - 40</li>
+    				<li><mark>Area of Effect:</mark> 2.5 Meters</li>
+    			</ul>
+    		</td>
+    		<td class="description">Pharah’s primary weapon launches rockets that deal significant damage in a wide blast radius.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/pharah/jumpjet.png" alt="Jump Jet" title="Jump Jet"><span class="skillname">Jump Jet</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Max Range:</mark> 20 Meters Vertically</li>
+    				<li><mark>Cooldown:</mark> 10 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Propelled by her suit’s thrusters, Pharah soars high into the air.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/pharah/concussiveblast.png" alt="Concussive Blast" title="Concussive Blast"><span class="skillname">Concussive Blast</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Splash Projectile</li>
+    				<li><mark>Area of Effect:</mark> 8 Meters</li>
+    				<li><mark>Cooldown:</mark> 12 Seconds</li>
+    				<li><mark>Damage:</mark> Knockback</li>
+    			</ul>
+    		</td>
+    		<td class="description">Pharah looses a wrist rocket that knocks back any enemies it strikes.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/pharah/hoverjets.png" alt="Hover Jets" title="Hover Jets"><span class="skillname">Hover Jets</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Movement Speed:</mark> 5.5 Meters/Sec</li>
+    				<li><mark>Duration:</mark> 2 Seconds</li>
+    				<li><mark>Cooldown:</mark> 2 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Pharah lifts herself upward with her jet suit.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/pharah/barrage.png" alt="Barrage" title="Barrage"><span class="skillname">Barrage</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Rapid Fire Linear Projectile</li>
+    				<li><mark>Duration:</mark> 3 Seconds</li>
+    				<li><mark>Rate of Fire:</mark> 30 Rockets/Sec</li>
+    				<li><mark>Charge Required:</mark> 1812.5</li>
+    				<li><mark>Damage:</mark> 40/Rocket</li>
+    			</ul>
+    		</td>
+    		<td class="description">Pharah directs a continuous salvo of mini-rockets to destroy groups of enemies.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/pharah/classic.jpg" id="swap" alt="Pharah Skins" title="Classic Pharah">
+    	<table>
+    		<tr>
+    		<th colspan="6">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/emerald.jpg'; document.getElementById('swap').title='Emerald'">Emerald</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/amethyst.jpg'; document.getElementById('swap').title='Amethyst'">Amethyst</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/copper.jpg'; document.getElementById('swap').title='Copper'">Copper</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/pharah/titanium.jpg'; document.getElementById('swap').title='Titanium'">Titanium</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/anubis.jpg'; document.getElementById('swap').title='Anubis'">Anubis</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/jackal.jpg'; document.getElementById('swap').title='Jackal'">Jackal</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/thunderbird.jpg'; document.getElementById('swap').title='Thunderbird'">Thunderbird</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/raindancer.jpg'; document.getElementById('swap').title='Raindancer'">Raindancer</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/mechaqueen.jpg'; document.getElementById('swap').title='Mechaqueen'">Mechaqueen</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/raptorion.jpg'; document.getElementById('swap').title='Raptorion'">Raptorion</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/asp_skin.jpg'; document.getElementById('swap').title='Asp'">Asp</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/securitychief.jpg'; document.getElementById('swap').title='Security Chief'">Security Chief</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/bedouin.jpg'; document.getElementById('swap').title='Bedouin'">Bedouin</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/frostbite.jpg'; document.getElementById('swap').title='Frostbite'">Frostbite</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/possessed.jpg'; document.getElementById('swap').title='Possessed'">Possessed</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/pharah/qinglong.jpg'; document.getElementById('swap').title='Qinglong'">Qinglong</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 195px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/cheer.gif'; document.getElementById('emoteswap').title='Cheer'">Cheer</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/pharah/chuckle.gif'; document.getElementById('emoteswap').title='Chuckle'">Chuckle</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/flourish.gif'; document.getElementById('emoteswap').title='Flourish'">Flourish</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/knuckles.gif'; document.getElementById('emoteswap').title='Knuckles'">Knuckles</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/takeaknee.gif'; document.getElementById('emoteswap').title='Take A Knee'">Take A Knee</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/flair.gif'; document.getElementById('emoteswap').title='Flair'">Flair</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/pharah/rocketguitar.gif'; document.getElementbyId('emoteswap').title='Rocket Guitar'">Rocket Guitar</button></li>
+    	</ul>
+    	<img src="img/pharah/heroic.gif" id="emoteswap" alt="Pharah Emotes" title="Pharah Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 330px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/pharah/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/pharah/missioncomplete.gif'; document.getElementById('highlightswap').title='Mission Complete'">Mission Complete</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/pharah/barrage.gif'; document.getElementById('highlightswap').title='Barrage'">Barrage</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/pharah/touchdown.gif'; document.getElementById('highlightswap').title='Touchdown'">Touchdown</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/pharah/slamdunk.gif'; document.getElementById('highlightswap').title='Slam Dunk'">Slam Dunk</button></li>
+    	</ul>
+    	<img src="img/pharah/heroic_intro.gif" id="highlightswap" alt="Pharah Highlight Intros" title="Pharah Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/pharah/amari.jpg" style="width:100%">
+	    	<div class="caption">Amari</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/pharah/rocketlauncher.jpg" style="width:100%">
+	    	<div class="caption">Rocket Launcher</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/pharah/cobra.jpg" style="width:100%">
+	    	<div class="caption">Cobra</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/pharah/playpharah.jpg" style="width:100%">
+	    	<div class="caption">Play Pharah</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/pharah/ana.jpg" style="width:100%">
+	    	<div class="caption">Ana</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/pharah/aerialsuperiority.jpg" style="width:100%">
+	    	<div class="caption">Aerial Superiority</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/pharah/concussiveblast.jpg" style="width:100%">
+	    	<div class="caption">Concussive Blast</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/pharah/asp.jpg" style="width:100%">
+	    	<div class="caption">Asp</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/pharah/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/pharah/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/pharah/justice.jpg" style="width:100%">
+	    	<div class="caption">Justice...</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/pharah/guardian.jpg" style="width:100%">
+	    	<div class="caption">Guardian</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/pharah/hieroglyph.jpg" style="width:100%">
+	    	<div class="caption">Hieroglyph</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/pharah/incoming.jpg" style="width:100%">
+	    	<div class="caption">Incoming</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/pharah/Pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/pharah/onguard.jpg" style="width:100%">
+	    	<div class="caption">On Guard</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/pharah/raptora.jpg" style="width:100%">
+	    	<div class="caption">Raptora</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/pharah/rocketjump.jpg" style="width:100%">
+	    	<div class="caption">Rocket Jump</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/pharah/scarab.jpg" style="width:100%">
+	    	<div class="caption">Scarab</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/pharah/salute.jpg" style="width:100%">
+	    	<div class="caption">Salute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/pharah/statue.jpg" style="width:100%">
+	    	<div class="caption">Statue</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/pharah/tattoo.jpg" style="width:100%">
+	    	<div class="caption">Tattoo</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/pharah/stone.jpg" style="width:100%">
+	    	<div class="caption">Stone</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/pharah/wings.jpg" style="width:100%">
+	    	<div class="caption">Wings</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/pharah/wedjat.jpg" style="width:100%">
+	    	<div class="caption">Wedjat</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/pharah/wristlauncher.jpg" style="width:100%">
+	    	<div class="caption">Wrist Launcher</div>
+	 	</div>
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/pharah/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/pharah/guardian_pose.jpg" alt="Guardian" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/pharah/jumpjet.jpg" alt="Jump Jet" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/pharah/kneeling.jpg" alt="Kneeling" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/pharah/medal.jpg" alt="Medal" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/pharah/toast.jpg" alt="Toast" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+		    <img src="img/pharah/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<table class="footcol5">
+			<tr>
+				<th>Maps</th>
+			</tr>
+			<tr>
+				<td>Volskaya Industries</td>
+			</tr>
+			<tr>
+				<td>Watchpoint: Gibraltar</td>
+			</tr>
+		</table>
+		<table class="footcol6">
+			<tr>
+				<th>Lore</th>
+			</tr>
+			<tr>
+				<td>Animated Shorts</td>
+			</tr>
+		</table>
+		<img src="img/footer_logo.png" class="footerlogo">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>

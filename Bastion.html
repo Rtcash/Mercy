@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bastion</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/bastion/bastion.png" class="portrait" alt="Bastion" title="Bastion">
+		<ul class="bio">
+		<li>Name: Siege Automaton E54</li>
+		<br/>
+		<li>Age: 30</li>
+		<br/>
+		<li>Role:  Defense  <img src="img/defense.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: Product of SST Laboratories</li>
+		<br/>
+		<li>Voice Actor: Chris Metzen</li>
+		</ul>
+		<br/>
+		<h1>Bastion</h1>
+		<h3>"Dah-dah weeeee!"</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Repair protocols and the ability to transform
+between stationary Assault, mobile Recon and
+devastating Tank configurations provide Bastion
+with a high probability of victory.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">Once a frontline combatant in the devastating
+Omnic Crisis, this curious Bastion unit now
+explores the world, fascinated by nature but
+wary of a fearful humanity.</pre>
+		<pre class="summary" style="color: #f99e1a">Originally created for peacekeeping purposes,
+Bastion robot units possessed the unique ability
+to rapidly reconfigure themselves into an
+assault-cannon mode. But during the Omnic Crisis,
+they were turned against their human makers, forming
+the bulk of the omnics' rebel army. Following the
+resolution of the crisis, nearly all of them were
+destroyed or disassembled. To this day, Bastion
+units still symbolize the horrors of the conflict.</pre>
+		<pre class="summary">One unique Bastion unit, severely damaged in
+the final battles of the war, was left forgotten for
+over a decade. It lay dormant, exposed to the
+elements and rusting while nature slowly reclaimed it.
+Overgrown with vines and roots and nested upon by
+small animals, the robot sat inert, seemingly unaware of
+the passing of time. That was until one fateful day,
+when it unexpectedly reactivated. With its combat
+programming all but lost, it instead displayed an
+intense curiosity about the natural world and its
+inhabitants. This inquisitive Bastion unit set out to
+explore its surroundings and discover its purpose
+on a war-ravaged planet.</pre>
+		<pre class="summary" style="color: #f99e1a">Though "Bastion" appears to be gentle—even
+harmless, at times—its core combat programming takes
+over when the unit senses danger, utilizing its entire
+arsenal to eliminate anything it perceives as a threat.
+This has led to instances of conflict with the few humans
+it has encountered, and has driven it to avoid populated
+areas in favor of the wild, uncharted regions of the world.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/bastion/recon.png" alt="Configuration: Recon" title="Configuration: Recon"><span class="skillname">Configuration: Recon</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Rapid Fire Hitscan</li>
+    				<li><mark>Spread Angle:</mark> Max 1.25 Degrees</li>
+    				<li><mark>Ammo:</mark> 25</li>
+    				<li><mark>Reload Time:</mark> 2 Seconds</li>
+    				<li><mark>Damage:</mark> 6 - 20</li>
+    				<li><mark>Rate of Fire:</mark> 8 Shots/Sec</li>
+    			</ul>
+    		</td>
+    		<td class="description">In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/bastion/sentry.png" alt="Ultimate: Configuration: Sentry" title="Ultimate: Configuration: Sentry"><span class="skillname">Ultimate: Configuration: Sentry</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Rapid Fire Hitscan</li>
+    				<li><mark>Spread Angle:</mark> Constant 3.00 Degrees</li>
+    				<li><mark>Ammo:</mark> 300</li>
+    				<li><mark>Reload Time:</mark> 2 Seconds</li>
+    				<li><mark>Damage:</mark> 4 - 15</li>
+    				<li><mark>Rate of Fire:</mark> 30 Shots/Sec</li>
+    			</ul>
+    		</td>
+    		<td class="description">In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be "walked" across multiple targets, dealing devastating damage at short to medium range.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/bastion/reconfigure.png" alt="Reconfigure" title="Reconfigure"><span class="skillname">Reconfigure</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Cast Time:</mark> 1 Second into Sentry; 0.5 Seconds into Recon</li>
+    				<li><mark>Cooldown:</mark> None</li>
+    			</ul>
+    		</td>
+    		<td class="description">Bastion transforms between its two primary combat modes to adapt to battlefield conditions.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/bastion/selfrepair.png" alt="Self-Repair" title="Self-Repair"><span class="skillname">Self-Repair</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Healing:</mark> 75/Sec</li>
+    				<li><mark>Cast Time:</mark> 0.5 Second Delay</li>
+    				<li><mark>Duration:</mark> Up to 4 Seconds</li>
+    				<li><mark>Cooldown:</mark> 7 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Bastion restores its health; it cannot fire weapons while the repair process is in effect.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/bastion/ironclad.png" alt="Ironclad" title="Ironclad"><span class="skillname">Ironclad</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Damage Reduction:</mark> 20%</li>
+    			</ul>
+    		</td>
+    		<td class="description">Reduces damage taken while transformed.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/bastion/tank.png" alt="Configuration: Tank" title="Configuration: Tank"><span class="skillname">Configuration: Tank</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Projectile</li>
+    				<li><mark>Area of Effect:</mark> 4 Meters</li>
+    				<li><mark>Ammo:</mark> Infinite</li>
+    				<li><mark>Duration:</mark> 8 Seconds</li>
+    				<li><mark>Damage:</mark> Direct Hit - 205; Self - 35</li>
+    				<li><mark>Rate of Fire:</mark> 1.11 Shots/Sec</li>
+    				<li><mark>Charge Required:</mark> 2062.5 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/bastion/classic.jpg" id="swap" alt="Bastion Skins" title="Classic Bastion">
+    	<table>
+    		<tr>
+    		<th colspan="5">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/dawn.jpg'; document.getElementById('swap').title='Dawn'">Dawn</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/meadow.jpg'; document.getElementById('swap').title='Meadow'">Meadow</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/sky.jpg'; document.getElementById('swap').title='Sky'">Sky</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/soot.jpg'; document.getElementById('swap').title='Soot'">Soot</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/defensematrix.jpg'; document.getElementById('swap').title='Defense Matrix'">Defense Matrix</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/omniccrisis.jpg'; document.getElementById('swap').title='Omnic Crisis'">Omnic Crisis</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/antique.jpg'; document.getElementById('swap').title='Antique'">Antique</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/bastion/woodbot.jpg'; document.getElementById('swap').title='Woodbot'">Woodbot</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/gearbot.jpg'; document.getElementById('swap').title='Gearbot'">Gearbot</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/steambot.jpg'; document.getElementById('swap').title='Steambot'">Steambot</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/blizzcon2016.jpg'; document.getElementById('swap').title='Blizzcon 2016'">Blizzcon 2016</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/overgrown.jpg'; document.getElementById('swap').title='Overgrown'">Overgrown</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/rooster.jpg'; document.getElementById('swap').title='Rooster'">Rooster</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/tombstone.jpg'; document.getElementById('swap').title='Tombstone'">Tombstone</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/nullsector.jpg'; document.getElementById('swap').title='Null Sector'">Null Sector</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/avalanche.jpg'; document.getElementById('swap').title='Avalanche'">Avalanche</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/dunebuggy.jpg'; document.getElementById('swap').title='Dune Buggy'">Dune Buggy</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/bastion/stealth.jpg'; document.getElementById('swap').title='Stealth'">Stealth</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 190px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/alertalert.gif'; document.getElementById('emoteswap').title='At Rest'">Alert! Alert!</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/bastion/chortle.gif'; document.getElementById('emoteswap').title='Curtain Call'">Chortle</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/dizzy.gif'; document.getElementById('emoteswap').title='Dizzy'">Dizzy</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/restmode.gif'; document.getElementById('emoteswap').title='Rest Mode'">Rest Mode</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/robot.gif'; document.getElementById('emoteswap').title='Robot'">Robot</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/boxing.gif'; document.getElementById('emoteswap').title='Boxing'">Boxing</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/roboboogie.gif'; document.getElementById('emoteswap').title='Robo Boogie'">Robo Boogie</button></li>
+    	</ul>
+    	<img src="img/bastion/heroic.gif" id="emoteswap" alt="Bastion Emotes" title="Bastion Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 375px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/bastion/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/bastion/bulletrain.gif'; document.getElementById('highlightswap').title='Bullet Rain'">Bullet Rain</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/bastion/ganymede.gif'; document.getElementById('highlightswap').title='Ganymede'">Ganymede</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/bastion/onguard.gif'; document.getElementById('highlightswap').title='On Guard'">On Guard</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/bastion/reconfigure.gif'; document.getElementById('highlightswap').title='Reconfigure'">Reconfigure</button></li>
+    	</ul>
+    	<img src="img/bastion/heroic_intro.gif" id="highlightswap" alt="Bastion Highlight Intros" title="Bastion Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/bastion/action.jpg" style="width:100%">
+	    	<div class="caption">Action</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/bastion/bird.jpg" style="width:100%">
+	    	<div class="caption">Bird</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/bastion/birdwatchers.jpg" style="width:100%">
+	    	<div class="caption">Birdwatchers</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/bastion/black.jpg" style="width:100%">
+	    	<div class="caption">Black</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/bastion/blocks.jpg" style="width:100%">
+	    	<div class="caption">Blocks</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/bastion/cannon.jpg" style="width:100%">
+	    	<div class="caption">Cannon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/bastion/crisis.jpg" style="width:100%">
+	    	<div class="caption">Crisis</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/bastion/curious.jpg" style="width:100%">
+	    	<div class="caption">Curious</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/bastion/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/bastion/e54.jpg" style="width:100%">
+	    	<div class="caption">E54</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/bastion/fireatwill.jpg" style="width:100%">
+	    	<div class="caption">Fire At Will</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/bastion/flight.jpg" style="width:100%">
+	    	<div class="caption">Flight</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/bastion/flowerpower.jpg" style="width:100%">
+	    	<div class="caption">Flower Power</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/bastion/ganymede.jpg" style="width:100%">
+	    	<div class="caption">Ganymede</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/bastion/giant.jpg" style="width:100%">
+	    	<div class="caption">Giant</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/bastion/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/bastion/inrepair.jpg" style="width:100%">
+	    	<div class="caption">In Repair</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/bastion/nest.jpg" style="width:100%">
+	    	<div class="caption">Nest</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/bastion/omnic.jpg" style="width:100%">
+	    	<div class="caption">Omnic</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/bastion/overgrown_spray.jpg" style="width:100%">
+	    	<div class="caption">Overgrown</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/bastion/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/bastion/recovery.jpg" style="width:100%">
+	    	<div class="caption">Recovery</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/bastion/retro.jpg" style="width:100%">
+	    	<div class="caption">Retro</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/bastion/sprout.jpg" style="width:100%">
+	    	<div class="caption">Sprout</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/bastion/tombstone_spray.jpg" style="width:100%">
+	    	<div class="caption">Tombstone</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/bastion/woodandstone.jpg" style="width:100%">
+	    	<div class="caption">Wood And Stone</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/bastion/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/bastion/birdwatching_pose.jpg" alt="Birdwatching" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/bastion/popup.jpg" alt="Pop Up" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/bastion/tank.jpg" alt="Tank" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/bastion/medal.jpg" alt="Medal" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/bastion/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+		    <img src="img/bastion/toast.jpg" alt="Toast" onclick="myFunction(this);">
+		</div>
+		<div class="column3">
+		    <img src="img/bastion/firework.jpg" alt="Firework" onclick="myFunction(this);">
+		</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<table class="footcol5">
+			<tr>
+				<th>Maps</th>
+			</tr>
+			<tr>
+				<td>Volskaya Industries</td>
+			</tr>
+			<tr>
+				<td>Watchpoint: Gibraltar</td>
+			</tr>
+		</table>
+		<table class="footcol6">
+			<tr>
+				<th>Lore</th>
+			</tr>
+			<tr>
+				<td>Animated Shorts</td>
+			</tr>
+		</table>
+		<img src="img/footer_logo.png" class="footerlogo">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>

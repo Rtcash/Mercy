@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hanzo</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/hanzo/hanzo.png" class="portrait" alt="Hanzo" title="Hanzo">
+		<ul class="bio">
+		<li>Name: Hanzo Shimada</li>
+		<br/>
+		<li>Age: 28</li>
+		<br/>
+		<li>Role:  Defense  <img src="img/defense.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"><img src="img/star.png"><img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: Japanese</li>
+		<br/>
+		<li>Voice Actor: Paul Nakauchi</li>
+		</ul>
+		<br/>
+		<h1>Hanzo</h1>
+		<h3>"Ryū ga waga teki wo kurau!"</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Hanzo’s versatile arrows can reveal his
+enemies or fragment to strike multiple targets.
+He can scale walls to fire his bow from on high,
+or summon a titanic spirit dragon.</pre>
+		<hr/>
+    	<h2>Story</h2>
+		<pre class="summary">Mastering his skills as a bowman and an
+assassin, Hanzo Shimada strives to prove himself
+as a warrior without peer.</pre>
+		<pre class="summary" style="color: #f99e1a">The Shimada family was established centuries
+ago, a clan of assassins whose power grew over the
+years, enabling them to build a vast criminal
+empire that profited from lucrative trade in arms
+and illegal substances. As the eldest son of the
+family's head, Hanzo was bound by duty to succeed
+his father and rule the Shimada empire. From a young
+age, he was trained for that responsibility,
+displaying a natural aptitude for leadership and
+possessing an innate understanding of strategy and
+tactics. He also excelled in more practical areas:
+he was a prodigy in martial arts,
+swordplay, and bowmanship.</pre>
+		<pre class="summary">Upon the death of his father, the clan elders
+instructed Hanzo to straighten out his wayward
+younger brother so that he, too, might help rule the
+Shimada empire. When his brother refused, Hanzo was
+forced to kill him. This act broke Hanzo's heart and
+drove him to reject his father's legacy, ultimately
+leading him to abandon the clan and all that he had
+worked so hard to attain.</pre>
+		<pre class="summary" style="color: #f99e1a">Now, Hanzo travels the world, perfecting his
+skills as a warrior, attempting to restore his honor
+and put the ghosts of his past to rest.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/hanzo/stormbow.png" alt="Storm Bow" title="Storm Bow"><span class="skillname">Storm Bow</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Arcing Projectile</li>
+    				<li><mark>Spread Angle:</mark> Pinpoint</li>
+    				<li><mark>Ammo:</mark> Infinite</li>
+    				<li><mark>Reload Time:</mark> 0.5 Second Delay Between Shots</li>
+    				<li><mark>Damage:</mark> 29 - 125 Depending On Charge</li>
+    				<li><mark>Rate of Fire:</mark> 0.5 Second Charge</li>
+    			</ul>
+    		</td>
+    		<td class="description">Hanzo nocks and fires an arrow at his target.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/hanzo/sonicarrow.png" alt="Sonic Arrow" title="Sonic Arrow"><span class="skillname">Sonic Arrow</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Arcing Projectile</li>
+    				<li><mark>Area of Effect:</mark> 7 Meter Radius</li>
+    				<li><mark>Duration:</mark> 6 Seconds</li>
+    				<li><mark>Cooldown:</mark> 12 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/hanzo/stormarrows.png" alt="Storm Arrows" title="Storm Arrows"><span class="skillname">Storm Arrows</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Arcing Projectile</li>
+    				<li><mark>Spread Angle:</mark> Pinpoint</li>
+    				<li><mark>Cooldown:</mark> 8 Seconds</li>
+    				<li><mark>Rate of Fire:</mark> 3.33 Shots/Sec</li>
+    				<li><mark>Damage:</mark> 70/Shot</li>
+    			</ul>
+    		</td>
+    		<td class="description">Hanzo’s next several arrows fire instantly, but at reduced damage.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/hanzo/lunge.png" alt="Lunge" title="Lunge"><span class="skillname">Lunge</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Cooldown:</mark> 4 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Hanzo can double jump, allowing him to change direction mid-jump.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/hanzo/wallclimb.png" alt="Wall Climb" title="Wall Climb"><span class="skillname">Wall Climb</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Max Range:</mark> 4 Meters Vertically</li>
+    			</ul>
+    		</td>
+    		<td class="description">Jump at walls to climb up them.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/hanzo/dragonstrike.png" alt="Ultimate: Dragonstrike" title="Ultimate: Dragonstrike"><span class="skillname">Ultimate: Dragonstrike</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Projectile</li>
+    				<li><mark>Max Range:</mark> Infinite</li>
+    				<li><mark>Area of Effect:</mark> 4 Meters</li>
+    				<li><mark>Cast Time:</mark> 1.4 Seconds</li>
+    				<li><mark>Damage:</mark> Initial Shot - 125; Dragons - 150/Sec/Dragon</li>
+    				<li><mark>Charge Required:</mark> 1500 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/hanzo/classic.jpg" id="swap" alt="Hanzo Skins" title="Classic Hanzo">
+    	<table>
+    		<tr>
+    		<th colspan="6">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/azuki.jpg'; document.getElementById('swap').title='Azuki'">Azuki</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/kinoko.jpg'; document.getElementById('swap').title='Kinoko'">Kinoko</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/midori.jpg'; document.getElementById('swap').title='Midori'">Midori</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/sora.jpg'; document.getElementById('swap').title='Sora'">Sora</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/casual.jpg'; document.getElementById('swap').title='Casual'">Casual</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/cloud_skin.jpg'; document.getElementById('swap').title='Cloud'">Cloud</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/dragon_skin.jpg'; document.getElementById('swap').title='Dragon'">Dragon</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/hanzo/younghanzo.jpg'; document.getElementById('swap').title='Young Hanzo'">Young Hanzo</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/hanzo/youngmaster.jpg'; document.getElementById('swap').title='Young Master'">Young Master</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/lonewolf.jpg'; document.getElementById('swap').title='Lone Wolf'">Lone Wolf</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/okami.jpg'; document.getElementById('swap').title='Okami'">Okami</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/demon.jpg'; document.getElementById('swap').title='Demon'">Demon</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/cyberninja.jpg'; document.getElementById('swap').title='Cyberninja'">Cyberninja</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/kabuki.jpg'; document.getElementById('swap').title='Kabuki'">Kabuki</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/hanzo/scion.jpg'; document.getElementById('swap').title='Scion'">Scion</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 125px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/beckon.gif'; document.getElementById('emoteswap').title='Beckon'">Beckon</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/hanzo/brushshoulder.gif'; document.getElementById('emoteswap').title='Brush Shoulder'">Brush Shoulder</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/chuckle.gif'; document.getElementById('emoteswap').title='Chuckle'">Chuckle</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/meditate.gif'; document.getElementById('emoteswap').title='Meditate'">Meditate</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/victory.gif'; document.getElementById('emoteswap').title='Victory'">Victory</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/training.gif'; document.getElementById('emoteswap').title='Training'">Training</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/hanzo/fishermandance.gif'; document.getElementById('emoteswap').title='Fisherman Dance'">Fisherman Dance</button></li>
+    	</ul>
+    	<img src="img/hanzo/heroic.gif" id="emoteswap" alt="Hanzo Emotes" title="Hanzo Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 375px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/hanzo/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/hanzo/backflip.gif'; document.getElementById('highlightswap').title='Backflip'">Backflip</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/hanzo/myaimistrue.gif'; document.getElementById('highlightswap').title='My Aim Is True'">My Aim Is True</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/hanzo/superior.gif'; document.getElementById('highlightswap').title='Superior'">Superior</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/hanzo/targetpractice.gif'; document.getElementById('highlightswap').title='Target Practice'">Target Practice</button></li>
+    	</ul>
+    	<img src="img/hanzo/heroic_intro.gif" id="highlightswap" alt="Hanzo Highlight Intros" title="Hanzo Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/hanzo/challenge.jpg" style="width:100%">
+	    	<div class="caption">Challenge</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/hanzo/sake.jpg" style="width:100%">
+	    	<div class="caption">Sake</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/hanzo/scarf.jpg" style="width:100%">
+	    	<div class="caption">Scarf</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/hanzo/seal.jpg" style="width:100%">
+	    	<div class="caption">Seal</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/hanzo/wanderer.jpg" style="width:100%">
+	    	<div class="caption">Wanderer</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/hanzo/archer.jpg" style="width:100%">
+	    	<div class="caption">Archer</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/hanzo/cloud.jpg" style="width:100%">
+	    	<div class="caption">Cloud</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/hanzo/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/hanzo/dragon.jpg" style="width:100%">
+	    	<div class="caption">Dragon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/hanzo/dragons.jpg" style="width:100%">
+	    	<div class="caption">Dragons</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/hanzo/dragonstrike.jpg" style="width:100%">
+	    	<div class="caption">Dragonstrike</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/hanzo/drawn.jpg" style="width:100%">
+	    	<div class="caption">Drawn</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/hanzo/duty.jpg" style="width:100%">
+	    	<div class="caption">Duty</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/hanzo/haori.jpg" style="width:100%">
+	    	<div class="caption">Haori</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/hanzo/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/hanzo/kabuki_spray.jpg" style="width:100%">
+	    	<div class="caption">Kabuki</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/hanzo/kneeling_spray.jpg" style="width:100%">
+	    	<div class="caption">Kneeling</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/hanzo/kumo.jpg" style="width:100%">
+	    	<div class="caption">Kumo</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/hanzo/moon.jpg" style="width:100%">
+	    	<div class="caption">Moon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/hanzo/nin.jpg" style="width:100%">
+	    	<div class="caption">Nin</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/hanzo/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/hanzo/spray.jpg" style="width:100%">
+	    	<div class="caption">Spray</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/hanzo/stoic.jpg" style="width:100%">
+	    	<div class="caption">Stoic</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/hanzo/successor.jpg" style="width:100%">
+	    	<div class="caption">Successor</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/hanzo/tea.jpg" style="width:100%">
+	    	<div class="caption">Tea</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/hanzo/yellow.jpg" style="width:100%">
+	    	<div class="caption">Yellow</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/hanzo/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/hanzo/confident.jpg" alt="Confident" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/hanzo/kneeling.jpg" alt="Kneeling" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/hanzo/overtheshoulder.jpg" alt="Over The Shoulder" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/hanzo/medal.jpg" alt="Medal" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/hanzo/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+		    <img src="img/hanzo/skewered.jpg" alt="Skewered" onclick="myFunction(this);">
+		</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<table class="footcol5">
+			<tr>
+				<th>Maps</th>
+			</tr>
+			<tr>
+				<td>Volskaya Industries</td>
+			</tr>
+			<tr>
+				<td>Watchpoint: Gibraltar</td>
+			</tr>
+		</table>
+		<table class="footcol6">
+			<tr>
+				<th>Lore</th>
+			</tr>
+			<tr>
+				<td>Animated Shorts</td>
+			</tr>
+		</table>
+		<img src="img/footer_logo.png" class="footerlogo">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>
