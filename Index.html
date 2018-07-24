@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="CSS/home.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<audio id="myAudio">
+		<source src="ow_theme.mp3" type="audio/mpeg">
+	</audio>
+	<button onclick="playAudio()" type="button"><img style="width: 25px" src="img/play.png"></button>
+	<button onclick="pauseAudio()" type="button"><img style="width: 25px" src="img/pause.png"></button>
+
+	<div class="maps">
+		<span class="selecttext" style="font-size: 55px">Maps</span>
+	</div>
+	<div class="mapselect">
+		<table style="float: left; margin-left: 35px; margin-right: 585px">
+			<tr>
+				<th colspan="5" style="font-size: 20px">Escort</th>
+			</tr>
+			<tr>
+				<td><a href="Dorado.html"><img src="img/dorado.png"></a></td>
+				<td><a href="Junkertown.html"><img src="img/junkertown.png"></a></td>
+				<td><a href="Rialto.html"><img src="img/rialto.jpg"></a></td>
+				<td><a href="Route66.html"><img src="img/route66.png"></a></td>
+				<td><a href="Watchpoint.html"><img src="img/watchpointgibraltar.png"></a></td>
+			</tr>
+			<tr>
+				<td>Dorado</td>
+				<td>Junkertown</td>
+				<td>Rialto</td>
+				<td>Route 66</td>
+				<td>Watchpoint: Gibraltar</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th colspan="4" style="font-size: 20px">Assault</th>
+			</tr>
+			<tr>
+				<td><a href="Hanamura.html"><img src="img/hanamura.png"></a></td>
+				<td><a href="Horizon.html"><img src="img/horizonlunarcolony.png"></a></td>
+				<td><a href="Temple.html"><img src="img/templeofanubis.png"></a></td>
+				<td><a href="Volskaya.html"><img src="img/volskayaindustries.png"></a></td>
+			</tr>
+			<tr>
+				<td>Hanamura</td>
+				<td>Horizon Lunar Colony</td>
+				<td>Temple Of Anubis</td>
+				<td>Volskaya Industries</td>
+			</tr>
+		</table>
+		<table style="float: left; margin-left: 100px; margin-right: 600px">
+			<tr>
+				<th colspan="4" style="font-size: 20px">Control</th>
+			</tr>
+			<tr>
+				<td><a href="Ilios.html"><img src="img/Ilios.png"></a></td>
+				<td><a href="Lijiang.html"><img src="img/lijiangtower.jpg"></a></td>
+				<td><a href="Nepal.html"><img src="img/nepal.png"></a></td>
+				<td><a href="Oasis.html"><img src="img/oasis.png"></a></td>
+			</tr>
+			<tr>
+				<td>Ilios</td>
+				<td>Lijiang Tower</td>
+				<td>Nepal</td>
+				<td>Oasis</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th colspan="5" style="font-size: 20px">Hybrid</th>
+			</tr>
+			<tr>
+				<td><a href="Blizzardworld.html"><img src="img/blizzardworld.jpg"></a></td>
+				<td><a href="Eichenwalde.html"><img src="img/eichenwalde.png"></a></td>
+				<td><a href="Hollywood.html"><img src="img/hollywood.jpg"></a></td>
+				<td><a href="Kingsrow.html"><img src="img/kingsrow.png"></a></td>
+				<td><a href="Numbani.html"><img src="img/numbani.jpg"></a></td>
+			</tr>
+			<tr>
+				<td>Blizzard World</td>
+				<td>Eichenwalde</td>
+				<td>Hollywood</td>
+				<td>King's Row</td>
+				<td>Numbani</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="select">
+		<span class="selecttext">Select A Hero</span>
+	</div>
+
+	<div class="heroselector">
+		<table class="offense">
+			<tr>
+				<th colspan="8">Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html"><img src="img/doomfistindex.png"></a></td>
+				<td><a href="Genji.html"><img src="img/genjiindex.png"></a></td>
+				<td><a href="Mccree.html"><img src="img/mccreeindex.png"></a></td>
+				<td><a href="Pharah.html"><img src="img/pharahindex.png"></a></td>
+				<td><a href="Reaper.html"><img src="img/reaperindex.png"></a></td>
+				<td><a href="Soldier76.html"><img src="img/soldier76index.png"></a></td>
+				<td><a href="Sombra.html"><img src="img/sombraindex.png"></a></td>
+				<td><a href="Tracer.html"><img src="img/tracerindex.png"></a></td>
+			</tr>
+			<tr>
+				<td>Doomfist</td>
+				<td>Genji</td>
+				<td>McCree</td>
+				<td>Pharah</td>
+				<td>Reaper</td>
+				<td>Soldier: 76</td>
+				<td>Sombra</td>
+				<td>Tracer</td>
+			</tr>
+		</table>
+		<table class="defense">
+			<tr>
+				<th colspan="6">Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html"><img src="img/bastionindex.png"></a></td>
+				<td><a href="Hanzo.html"><img src="img/hanzoindex.png"></a></td>
+				<td><a href="Junkrat.html"><img src="img/junkratindex.png"></a></td>
+				<td><a href="Mei.html"><img src="img/meiindex.png"></a></td>
+				<td><a href="Torbjorn.html"><img src="img/torbjornindex.png"></a></td>
+				<td><a href="Widowmaker.html"><img src="img/widowmakerindex.png"></a></td>
+			</tr>
+			<tr>
+				<td>Bastion</td>
+				<td>Hanzo</td>
+				<td>Junkrat</td>
+				<td>Mei</td>
+				<td>Torbjorn</td>
+				<td>Widowmaker</td>
+			</tr>
+		</table>
+		<table class="tank">
+			<tr>
+				<th colspan="6">Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html"><img src="img/dvaindex.png"></a></td>
+				<td><a href="Orisa.html"><img src="img/orisaindex.png"></a></td>
+				<td><a href="Reinhardt.html"><img src="img/reinhardtindex.png"></a></td>
+				<td><a href="Roadhog.html"><img src="img/roadhogindex.png"></a></td>
+				<td><a href="Winston.html"><img src="img/winstonindex.png"></a></td>
+				<td><a href="Zarya.html"><img src="img/zaryaindex.png"></a></td>
+			</tr>
+			<tr>
+				<td>D.Va</td>
+				<td>Orisa</td>
+				<td>Reinhardt</td>
+				<td>Roadhog</td>
+				<td>Winston</td>
+				<td>Zarya</td>
+			</tr>
+		</table>
+		<table class="suppport">
+			<tr>
+				<th colspan="7">Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html"><img src="img/anaindex.png"></a></td>
+				<td><a href="Brigitte.html"><img src="img/brigitteindex.png"></a></td>
+				<td><a href="Lucio.html"><img src="img/lucioindex.png"></a></td>
+				<td><a href="Mercy.html"><img src="img/mercyindex.png"></a></td>
+				<td><a href="Moira.html"><img src="img/moiraindex.png"></a></td>
+				<td><a href="Symmetra.html"><img src="img/symmetraindex.png"></a></td>
+				<td><a href="Zenyatta.html"><img src="img/zenyattaindex.png"></a></td>
+			</tr>
+			<tr>
+				<td>Ana</td>
+				<td>Brigitte</td>
+				<td>Lucio</td>
+				<td>Mercy</td>
+				<td>Moira</td>
+				<td>Symmetra</td>
+				<td>Zenyatta</td>
+			</tr>
+		</table>
+	</div>
+
+<script>
+
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+	x.play();
+}
+
+function pauseAudio() {
+	x.pause();
+}
+</script>
+</body>
+</html>

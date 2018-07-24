@@ -122,8 +122,9 @@ h3 {
 
 td img {
 	width: 75px;
-	border: dashed white;
-	border-radius: 100px;
+	border: solid #f99e1a;
+	padding: 6px;
+	border-radius: 5px;
 }
 
 .skills th {
@@ -141,7 +142,7 @@ td img {
 }
 
 .skillname {
-	color: #f99e1a;
+	color: white;
 	font-size: 24px;
 	font-family: bignoodle;
 }
@@ -401,6 +402,10 @@ td ul li {
 	margin-right: 120px;
 }
 
+.victory img {
+	border: solid white 2px;
+}
+
 .victory h2 {
 	text-align: center;
 }
@@ -457,6 +462,10 @@ td ul li {
     display: none;
 }
 
+.container img {
+	border: solid #f99e1a 2px;
+}
+
 #imgtext {
     position: absolute;
     bottom: 15px;
@@ -475,18 +484,21 @@ td ul li {
     cursor: pointer;
 }
 
+.closebtn:hover {
+	background-color: rgba(25,25,25,0.3);
+	color: black;
+}
+
 .close {
-	background-color: rgba(77,77,77,0.3);
-	width: 85%;
+	background-color: rgba(25,25,25,0.3);
+	width: 95%;
 	height: 345px;
 	margin: 10px auto;
 	border-radius: 10px;
 }
 
 footer table {
-	margin-left: 25px;
-	border: 2px solid black;
-	border-radius: 5px;
+	margin-left: 20px;
 }
 
 footer th  {
@@ -502,6 +514,15 @@ footer td {
 	font-family: lato;
 	font-size: 25px;
 	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: #f99e1a;
 }
 
 .footcol1 {
@@ -524,33 +545,28 @@ footer td {
 	display: inline-block;
 }
 
-.footcol5 {
-	display: inline;
-	float: right;
-	margin-right: 15px;
-}
-
-.footcol6 {
-	display: inline;
-	float: right;
-}
-
-.footcol1, .footcol2, .footcol3, .footcol4, .footcol5, .footcol6{
+.footcol1, .footcol2, .footcol3, .footcol4 {
 	margin-top: 15px;
 }
 
 .footerlogo {
-	width: 385px;
+	width: 350px;
+	display: block;
 	float: right;
-	display: inline;
-	margin-top: 0;
-	margin-right: 35px;
+	border-radius: 10px;
 }
 
 .close p {
-	float: right;
 	color: white;
 	font-family: lato;
-	font-size: 15px;
-	margin-right: 55px;
+	margin-left: 385px;
+}
+
+.navbarbottom {
+	font-size: 20px;
+	font-family: lato;
+	display: inline;
+	position: relative;
+	top: -350px;
+	left: -5px;
 }

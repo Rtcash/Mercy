@@ -13,7 +13,7 @@
 <body>
 	<header>
 	<img src="img/banner.jpg" class="banner">
-	<div class="navbar">
+	<div class="navbar" id="top">
 		<a href="Index.html">Home</a>
 		<a href="Heroes.html">Heroes</a>
 		<a href="Maps.html">Maps</a>
@@ -121,16 +121,6 @@ areas in favor of the wild, uncharted regions of the world.</pre>
     		<td class="description">In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be "walked" across multiple targets, dealing devastating damage at short to medium range.</td>
     		</tr>
     		<tr>
-    		<td class="skill"><img src="img/bastion/reconfigure.png" alt="Reconfigure" title="Reconfigure"><span class="skillname">Reconfigure</span></td>
-    		<td class="stats">
-    			<ul>
-    				<li><mark>Cast Time:</mark> 1 Second into Sentry; 0.5 Seconds into Recon</li>
-    				<li><mark>Cooldown:</mark> None</li>
-    			</ul>
-    		</td>
-    		<td class="description">Bastion transforms between its two primary combat modes to adapt to battlefield conditions.</td>
-    		</tr>
-    		<tr>
     		<td class="skill"><img src="img/bastion/selfrepair.png" alt="Self-Repair" title="Self-Repair"><span class="skillname">Self-Repair</span></td>
     		<td class="stats">
     			<ul>
@@ -141,15 +131,6 @@ areas in favor of the wild, uncharted regions of the world.</pre>
     			</ul>
     		</td>
     		<td class="description">Bastion restores its health; it cannot fire weapons while the repair process is in effect.</td>
-    		</tr>
-    		<tr>
-    		<td class="skill"><img src="img/bastion/ironclad.png" alt="Ironclad" title="Ironclad"><span class="skillname">Ironclad</span></td>
-    		<td class="stats">
-    			<ul>
-    				<li><mark>Damage Reduction:</mark> 20%</li>
-    			</ul>
-    		</td>
-    		<td class="description">Reduces damage taken while transformed.</td>
     		</tr>
     		<tr>
     		<td class="skill"><img src="img/bastion/tank.png" alt="Configuration: Tank" title="Configuration: Tank"><span class="skillname">Configuration: Tank</span></td>
@@ -210,8 +191,8 @@ areas in favor of the wild, uncharted regions of the world.</pre>
     	<h2>Emotes</h2>
     	<ul style="margin-left: 190px">
     	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
-    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/alertalert.gif'; document.getElementById('emoteswap').title='At Rest'">Alert! Alert!</button></li>
-    	<li><button onclick="document.getElementById('emoteswap').src='img/bastion/chortle.gif'; document.getElementById('emoteswap').title='Curtain Call'">Chortle</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/alertalert.gif'; document.getElementById('emoteswap').title='Alert! Alert!'">Alert! Alert!</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/bastion/chortle.gif'; document.getElementById('emoteswap').title='Chortle'">Chortle</button></li>
     	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/dizzy.gif'; document.getElementById('emoteswap').title='Dizzy'">Dizzy</button></li>
     	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/restmode.gif'; document.getElementById('emoteswap').title='Rest Mode'">Rest Mode</button></li>
     	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/bastion/robot.gif'; document.getElementById('emoteswap').title='Robot'">Robot</button></li>
@@ -512,27 +493,10 @@ areas in favor of the wild, uncharted regions of the world.</pre>
 				<td><a href="Zenyatta.html">Zenyatta</a></td>
 			</tr>
 		</table>
-		<table class="footcol5">
-			<tr>
-				<th>Maps</th>
-			</tr>
-			<tr>
-				<td>Volskaya Industries</td>
-			</tr>
-			<tr>
-				<td>Watchpoint: Gibraltar</td>
-			</tr>
-		</table>
-		<table class="footcol6">
-			<tr>
-				<th>Lore</th>
-			</tr>
-			<tr>
-				<td>Animated Shorts</td>
-			</tr>
-		</table>
-		<img src="img/footer_logo.png" class="footerlogo">
-		<p>Made by Ryan Cash. &copy; 2018</p>
+		<img src="img/bastion_footer.png" class="footerlogo">
+        <img src="img/overwatch_logo.png" style="width: 200px; float: right; margin-top: 200px">
+        <p>Made by Ryan Cash. &copy; 2018</p>
+        <a href="#top" style="float: right" class="navbarbottom">Top</a>
 	</footer>
 </div>
 

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Orisa</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar" id="top">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/orisa/orisa.png" class="portrait" alt="Orisa" title="Orisa">
+		<ul class="bio">
+		<li>Name: Orisa</li>
+		<br/>
+		<li>Age: 1 Month</li>
+		<br/>
+		<li>Role:  Tank  <img src="img/tank.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"><img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: Product of Numbani</li>
+		<br/>
+		<li>Voice Actor: Cherrelle Skeete</li>
+		</ul>
+		<br/>
+		<h1>Orisa</h1>
+		<h3>"Cease Your Resistance!"</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Orisa serves as the central anchor of her
+team, and defends her teammates from the
+frontline with a protective barrier. She
+can attack from long range, fortify her
+own defenses, launch graviton charges to
+slow and move enemies, and deploy a
+Supercharger to boost the damage output of
+multiple allies at once.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">Built from parts of one of Numbani's
+short-lived OR15 defense robots, Orisa
+is the city's newest protector, though
+she still has much to learn.</pre>
+		<pre class="summary" style="color: #f99e1a">Originally put into service before the
+Omnic Crisis, the OR14 "Idina" line of security
+robots was built in Nigeria's massive
+manufacturing omnium. After the war, they were
+taken out of production, along with many of the
+other models used during the crisis. Twenty years
+later, Numbani revived and recommissioned the
+OR14 program to protect the city from external
+threats. These new OR15s were deployed for a
+short time before they were destroyed in an attack
+by Doomfist.</pre>
+		<pre class="summary">Following the attack, the program was
+scrapped, and the civic government sold off the
+remaining OR15 inventory. Some parts were purchased
+by eleven-year-old Efi Oladele, a brilliant girl
+whose early accomplishments in robotics and
+artificial intelligence had already earned her the
+Adawe Foundation's "genius grant."</pre>
+		<pre class="summary" style="color: #f99e1a">With the approval of her understanding
+and open-minded parents, Efi spent the bulk of her
+grant money to acquire one of the decommissioned
+OR15 bots. She believed that Numbani needed a
+protector and that an upgraded OR15 could do just
+that. Efi repaired and reconfigured the robot and
+installed a personality core that
+she had designed herself.</pre>
+		<pre class="summary">She named Numbani's newest hero Orisa.</pre>
+		<pre class="summary" style="color: #f99e1a">Orisa has shown that she can be of
+service to the city, but she is still working
+toward finding her optimal protocols. The omnic's
+inexperience can cause her to be an occasional
+liability. Fortunately, between Efi's willingness
+to make the necessary modifications and Orisa's
+adaptive artificial intelligence, both robot and
+creator have always been able to set things right.</pre>
+		<pre class="summary">As Orisa starts her career as a
+guardian, she has much to learn about the world
+and her functionality. But as long as she is
+guided by Efi's boundless optimism and her own
+growing sense of honor and duty, Orisa stands
+ready to protect Numbani and her
+creator at any cost.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/orisa/fusiondriver.png" alt="Fusion Driver" title="Fusion Driver"><span class="skillname">Fusion Driver</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Projectile</li>
+    				<li><mark>Spread Angle:</mark> Constant 1.35 Degrees</li>
+    				<li><mark>Ammo:</mark> 150</li>
+    				<li><mark>Reload Time:</mark> 2.5 Seconds</li>
+    				<li><mark>Damage:</mark> 11/Shot</li>
+    				<li><mark>Rate of Fire:</mark> 12 Shots/Sec</li>
+    			</ul>
+    		</td>
+    		<td class="description">Orisa’s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/orisa/fortify.png" alt="Fortify" title="Fortify"><span class="skillname">Fortify</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Damage Reduction:</mark> 50%</li>
+    				<li><mark>Duration:</mark> 4 Seconds</li>
+    				<li><mark>Cooldown:</mark> 10 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Orisa temporarily reduces damage she takes, and cannot be affected by action-impairing effects.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/orisa/halt.png" alt="Halt!" title="Halt!"><span class="skillname">Halt!</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Projectile</li>
+    				<li><mark>Area of Effect:</mark> 7.5 Meters</li>
+    				<li><mark>Cast Time:</mark> 0.3 Seconds; 0.6 Second Activation Delay</li>
+    				<li><mark>Cooldown:</mark> 8 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Orisa launches a graviton charge which she can detonate, slowing nearby enemies and pulling them towards the explosion.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/orisa/protectivebarrier.png" alt="Protective Barrier" title="Protective Barrier"><span class="skillname">Protective Barrier</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Arcing Projectile</li>
+    				<li><mark>Health:</mark> 900</li>
+    				<li><mark>Duration:</mark> 20 Seconds</li>
+    				<li><mark>Cooldown:</mark> 8 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Orisa throws out a stationary barrier that can protect her and her allies from enemy fire.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/orisa/supercharger.png" alt="Ultimate: Supercharger" title="Ultimate: Supercharger"><span class="skillname">Ultimate: Supercharger</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Health:</mark> 200</li>
+    				<li><mark>Damage Increase:</mark> 50%</li>
+    				<li><mark>Area of Effect:</mark> 25 Meters</li>
+    				<li><mark>Cast Time:</mark> 1 Second</li>
+    				<li><mark>Duration:</mark> 15 Seconds</li>
+    				<li><mark>Charge Required:</mark> 1487.5 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">Orisa deploys a device to increase damage inflicted by allies within her line of sight.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/orisa/classic.jpg" id="swap" alt="Orisa Skins" title="Classic Orisa">
+    	<table>
+    		<tr>
+    		<th colspan="5">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/dawn.jpg'; document.getElementById('swap').title='Dawn'">Dawn</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/plains.jpg'; document.getElementById('swap').title='Plains'">Plains</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/sunrise.jpg'; document.getElementById('swap').title='Sunrise'">Sunrise</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/twilight.jpg'; document.getElementById('swap').title='Twilight'">Twilight</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/camoflage.jpg'; document.getElementById('swap').title='Camoflage'">Camoflage</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/or15.jpg'; document.getElementById('swap').title='OR15'">OR15</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/dynastinae.jpg'; document.getElementById('swap').title='Dynastinae'">Dynastinae</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/orisa/megasoma.jpg'; document.getElementById('swap').title='Megasoma'">Megasoma</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/carbonfiber.jpg'; document.getElementById('swap').title='Carbon Fiber'">Carbon Fiber</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/immortal.jpg'; document.getElementById('swap').title='Immortal'">Immortal</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/protector.jpg'; document.getElementById('swap').title='Protector'">Protector</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/nullsector.jpg'; document.getElementById('swap').title='Null Sector'">Null Sector</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/orisa/forestspirit.jpg'; document.getElementById('swap').title='Forest Spirit'">Forest Spirit</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 275px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/cheer.gif'; document.getElementById('emoteswap').title='Cheer'">Cheer</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/orisa/halt.gif'; document.getElementById('emoteswap').title='Halt!'">Halt!</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/kickingdirt.gif'; document.getElementById('emoteswap').title='Kicking Dirt'">Kicking Dirt</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/laugh.gif'; document.getElementById('emoteswap').title='Laugh'">Laugh</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/sit.gif'; document.getElementById('emoteswap').title='Sit'">Sit</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/puppy.gif'; document.getElementById('emoteswap').title='Puppy'">Puppy</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/orisa/dance.gif'; document.getElementById('emoteswap').title='Dance'">Dance</button></li>
+    	</ul>
+    	<img src="img/orisa/heroic.gif" id="emoteswap" alt="Orisa Emotes" title="Orisa Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 375px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/orisa/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/orisa/keepingyousafe.gif'; document.getElementById('highlightswap').title='Keeping You Safe'">Keeping You Safe</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/orisa/oh.gif'; document.getElementById('highlightswap').title='Oh!'">Oh!</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/orisa/supercharger.gif'; document.getElementById('highlightswap').title='Supercharger'">Supercharger</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/orisa/immovable.gif'; document.getElementById('highlightswap').title='Immovable'">Immovable</button></li>
+    	</ul>
+    	<img src="img/orisa/heroic_intro.gif" id="highlightswap" alt="Orisa Highlight Intros" title="Orisa Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/orisa/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/orisa/justdessert.jpg" style="width:100%">
+	    	<div class="caption">Just Dessert</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/orisa/smile.jpg" style="width:100%">
+	    	<div class="caption">^_^</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/orisa/frown.jpg" style="width:100%">
+	    	<div class="caption">>_<</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/orisa/amused.jpg" style="width:100%">
+	    	<div class="caption">Amused</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/orisa/carving.jpg" style="width:100%">
+	    	<div class="caption">Carving</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/orisa/cityofharmony.jpg" style="width:100%">
+	    	<div class="caption">City of Harmony</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/orisa/cleaning.jpg" style="width:100%">
+	    	<div class="caption">Cleaning</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/orisa/companions.jpg" style="width:100%">
+	    	<div class="caption">Companions</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/orisa/construction.jpg" style="width:100%">
+	    	<div class="caption">Construction</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/orisa/crossingguard.jpg" style="width:100%">
+	    	<div class="caption">Crossing Guard</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/orisa/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/orisa/drumming.jpg" style="width:100%">
+	    	<div class="caption">Drumming</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/orisa/guardian.jpg" style="width:100%">
+	    	<div class="caption">Guardian</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/orisa/heroes.jpg" style="width:100%">
+	    	<div class="caption">Heroes</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/orisa/immortal_spray.jpg" style="width:100%">
+	    	<div class="caption">Immortal</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/orisa/kick.jpg" style="width:100%">
+	    	<div class="caption">Kick</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/orisa/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/orisa/protector_spray.jpg" style="width:100%">
+	    	<div class="caption">Protector</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/orisa/shield.jpg" style="width:100%">
+	    	<div class="caption">Shield</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/orisa/stop.jpg" style="width:100%">
+	    	<div class="caption">Stop</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/orisa/supercharged.jpg" style="width:100%">
+	    	<div class="caption">Supercharged</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/orisa/swing.jpg" style="width:100%">
+	    	<div class="caption">Swing</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/orisa/tracks.jpg" style="width:100%">
+	    	<div class="caption">Tracks</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/orisa/unmoving.jpg" style="width:100%">
+	    	<div class="caption">Unmoving</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/orisa/xing.jpg" style="width:100%">
+	    	<div class="caption">Xing</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/orisa/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/orisa/confident.jpg" alt="Confident" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/orisa/flex.jpg" alt="Flex" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/orisa/halt.jpg" alt="Halt!" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/orisa/pumpkinhead.jpg" alt="Pumpkin Head" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/orisa/puppy.jpg" alt="Puppy" onclick="myFunction(this);">
+		</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<img src="img/orisa_footer.png" class="footerlogo">
+		<img src="img/overwatch_logo.png" style="width: 200px; float: right; margin-top: 200px">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+		<a href="#top" style="float: right" class="navbarbottom">Top</a>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>

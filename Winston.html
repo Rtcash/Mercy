@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Winston</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar" id="top">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/winston/winston.png" class="portrait" alt="Winston" title="Winston">
+		<ul class="bio">
+		<li>Name: Winston</li>
+		<br/>
+		<li>Age: 29</li>
+		<br/>
+		<li>Role:  Tank  <img src="img/tank.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"><img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: Horizon Lunar Colony</li>
+		<br/>
+		<li>Voice Actor: Crispin Freeman</li>
+		</ul>
+		<br/>
+		<h1>Winston</h1>
+		<h3>"I seem to have, uh, lost my temper."</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Winston wields impressive inventions—a
+jump pack, electricity-blasting Tesla Cannon,
+portable shield projector and more—with
+literal gorilla strength.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">A super-intelligent, genetically engineered gorilla,
+Winston is a brilliant scientist and a
+champion for humanity's potential.</pre>
+		<pre class="summary" style="color: #f99e1a">The Horizon Lunar Colony was established as a first
+step for humanity's renewed exploration of space.
+Among its residents was a group of genetically
+enhanced gorillas that were intended to test the
+effects of prolonged habitation in space.</pre>
+		<pre class="summary">One gorilla displayed such rapid brain development
+from the gene therapy that he was taken under
+the wing of Dr. Harold Winston, who taught him
+science and inspired him with tales of human
+ingenuity. The young gorilla passed his days
+assisting with the scientists' experiments,
+watching the distant blue world outside his
+habitat window, dreaming of the endless
+possibilities that awaited him there.</pre>
+		<pre class="summary" style="color: #f99e1a">But his life was thrown into chaos when the other
+gorillas led an uprising, killed the mission
+scientists, and claimed the colony for their own.
+Taking on the name of his beloved human caretaker,
+Winston built a makeshift rocket and escaped to
+Earth. There he found a new home with Overwatch,
+an organization that represented everything he had
+come to admire about humanity. Winston was finally
+able to live up to the heroic ideal that had
+been instilled in him.</pre>
+		<pre class="summary">Now with the fall of Overwatch, Winston has gone
+into seclusion, once again cut off from the world
+he believes in, but longing for the
+days of heroism to return.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/winston/teslacannon.png" alt="Tesla Cannon" title="Tesla Cannon"><span class="skillname">Tesla Cannon</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Multitarget Beam</li>
+    				<li><mark>Damage:</mark> 60/Sec; 3/Shot</li>
+    				<li><mark>Max Range:</mark> 8 Meters</li>
+    				<li><mark>Area of Effect:</mark> 6 Meters</li>
+    				<li><mark>Ammo:</mark> 100</li>
+    				<li><mark>Rate of Fire:</mark> 20 Shots/Sec</li>
+    				<li><mark>Reload Time:</mark> 1.5 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Winston’s weapon fires a short-range electric barrage for as long as he holds down the trigger.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/winston/jumppack.png" alt="Jump Pack" title="Jump Pack"><span class="skillname">Jump Pack</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Damage:</mark> 1 Upon Activating; Up to 45 Upon Landing</li>
+    				<li><mark>Max Range:</mark> 18 - 22 Meters</li>
+    				<li><mark>Area of Effect:</mark> 5 Meters</li>
+    				<li><mark>Cooldown:</mark> 6 Seconds; 2 Seconds During Primal Rage</li>
+    			</ul>
+    		</td>
+    		<td class="description">Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/winston/barrierprojector.png" alt="Barrier Projector" title="Barrier Projector"><span class="skillname">Barrier Projector</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Health:</mark> 600</li>
+    				<li><mark>Area of Effect:</mark> 5 Meters</li>
+    				<li><mark>Duration:</mark> 5 Seconds</li>
+    				<li><mark>Cooldown:</mark> 13 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Winston’s barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/winston/primalrage.png" alt="Ultimate: Primal Rage" title="Ultimate: Primal Rage"><span class="skillname">Ultimate: Primal Rage</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Melee</li>
+    				<li><mark>Health:</mark> +500 Health & Max Health</li>
+    				<li><mark>Damage:</mark> 40/Swing</li>
+    				<li><mark>Max Range:</mark> 4 Meters</li>
+    				<li><mark>Rate of Fire:</mark> 1.6 Swings/Sec</li>
+    				<li><mark>Duration:</mark> 10 Seconds</li>
+    				<li><mark>Charge Required:</mark> 1375 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/winston/classic.jpg" id="swap" alt="Winston Skins" title="Classic Winston">
+    	<table>
+    		<tr>
+    		<th colspan="5">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/atmosphere.jpg'; document.getElementById('swap').title='Atmosphere'">Atmosphere</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/banana.jpg'; document.getElementById('swap').title='Banana'">Banana</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/forest.jpg'; document.getElementById('swap').title='Forest'">Forest</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/redplanet.jpg'; document.getElementById('swap').title='Red Planet'">Red Planet</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/desert.jpg'; document.getElementById('swap').title='Desert'">Desert</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/horizon.jpg'; document.getElementById('swap').title='Horizon'">Horizon</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/undersea.jpg'; document.getElementById('swap').title='Undersea'">Undersea</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/frogston.jpg'; document.getElementById('swap').title='Frogston'">Frogston</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/blizzcon2017.jpg'; document.getElementById('swap').title='Blizzcon 2017'">Blizzcon 2017</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/explorer.jpg'; document.getElementById('swap').title='Explorer'">Explorer</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/safari.jpg'; document.getElementById('swap').title='Safari'">Safari</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/yeti.jpg'; document.getElementById('swap').title='Yeti'">Yeti</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/wukong.jpg'; document.getElementById('swap').title='Wukong'">Wukong</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/winston/specimen28.jpg'; document.getElementById('swap').title='Specimen 28'">Specimen 28</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 35px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/laughingmatter.gif'; document.getElementById('emoteswap').title='Laughing Matter'">Laughing Matter</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/winston/monkeybusiness.gif'; document.getElementById('emoteswap').title='Monkey Business'">Monkey Business</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/peanutbutter.gif'; document.getElementById('emoteswap').title='Peanut Butter?'">Peanut Butter?</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/roar.gif'; document.getElementById('emoteswap').title='Roar'">Roar</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/sittingaround.gif'; document.getElementById('emoteswap').title='Sitting Around'">Sitting Around</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/shadowpuppets.gif'; document.getElementById('emoteswap').title='Shadow Puppets'">Shadow Puppets</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/winston/twist.gif'; document.getElementById('emoteswap').title='Twist'">Twist</button></li>
+    	</ul>
+    	<img src="img/winston/heroic.gif" id="emoteswap" alt="Winston Emotes" title="Winston Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 400px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/winston/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/winston/excuseme.gif'; document.getElementById('highlightswap').title='Excuse Me'">Excuse Me</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/winston/glasses.gif'; document.getElementById('highlightswap').title='Glasses'">Glasses</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/winston/primalrage.gif'; document.getElementById('highlightswap').title='Primal Rage'">Primal Rage</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/winston/roll.gif'; document.getElementById('highlightswap').title='Roll'">Roll</button></li>
+    	</ul>
+    	<img src="img/winston/heroic_intro.gif" id="highlightswap" alt="Winston Highlight Intros" title="Winston Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/winston/harold.jpg" style="width:100%">
+	    	<div class="caption">Harold</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/winston/horizon_spray.jpg" style="width:100%">
+	    	<div class="caption">Horizon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/winston/primalrage.jpg" style="width:100%">
+	    	<div class="caption">Primal Rage</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/winston/rage.jpg" style="width:100%">
+	    	<div class="caption">Rage</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/winston/serious.jpg" style="width:100%">
+	    	<div class="caption">Serious</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/winston/angry.jpg" style="width:100%">
+	    	<div class="caption">Angry</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/winston/apecrossing.jpg" style="width:100%">
+	    	<div class="caption">Ape Crossing</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/winston/baby.jpg" style="width:100%">
+	    	<div class="caption">Baby</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/winston/banana_spray.jpg" style="width:100%">
+	    	<div class="caption">Banana</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/winston/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/winston/explorer_spray.jpg" style="width:100%">
+	    	<div class="caption">Explorer</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/winston/fastball.jpg" style="width:100%">
+	    	<div class="caption">Fastball</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/winston/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/winston/lexigrams.jpg" style="width:100%">
+	    	<div class="caption">Lexigrams</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/winston/lightning.jpg" style="width:100%">
+	    	<div class="caption">Lightning</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/winston/mine.jpg" style="width:100%">
+	    	<div class="caption">Mine!</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/winston/pb.jpg" style="width:100%">
+	    	<div class="caption">PB</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/winston/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/winston/qed.jpg" style="width:100%">
+	    	<div class="caption">Q.E.D.</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/winston/research.jpg" style="width:100%">
+	    	<div class="caption">Research</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/winston/roar.jpg" style="width:100%">
+	    	<div class="caption">Roar</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/winston/safari_spray.jpg" style="width:100%">
+	    	<div class="caption">Safari</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/winston/science.jpg" style="width:100%">
+	    	<div class="caption">Science!</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/winston/swing.jpg" style="width:100%">
+	    	<div class="caption">Swing</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/winston/white.jpg" style="width:100%">
+	    	<div class="caption">White</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/winston/wow.jpg" style="width:100%">
+	    	<div class="caption">Wow</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/winston/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/winston/beast.jpg" alt="Beast" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/winston/glasses.jpg" alt="Glasses" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/winston/thethinker.jpg" alt="The Thinker" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/winston/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/winston/medal.jpg" alt="Medal" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+			<img src="img/winston/sparklers.jpg" alt="Sparklers" onclick="myFunction(this);">
+		</div>
+		<div class="column3">
+			<img src="img/winston/peanutbutter.jpg" alt="Peanut Butter" onclick="myFunction(this);">
+		</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<img src="img/winston_footer.png" class="footerlogo">
+		<img src="img/overwatch_logo.png" style="width: 200px; float: right; margin-top: 200px">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+		<a href="#top" style="float: right" class="navbarbottom">Top</a>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>

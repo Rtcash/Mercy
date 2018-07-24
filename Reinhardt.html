@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reinhardt</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar" id="top">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/reinhardt/reinhardt.png" class="portrait" alt="Reinhardt" title="Reinhardt">
+		<ul class="bio">
+		<li>Name: Reinhardt Wilhelm</li>
+		<br/>
+		<li>Age: 61</li>
+		<br/>
+		<li>Role:  Tank  <img src="img/tank.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: German</li>
+		<br/>
+		<li>Voice Actor: Darin De Paul</li>
+		</ul>
+		<br/>
+		<h1>Reinhardt</h1>
+		<h3>"Hammer DOWN!"</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Clad in powered armor and swinging his
+hammer, Reinhardt leads a rocket-propelled
+charge across the battleground and defends
+his squadmates with a massive energy barrier.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">Reinhardt Wilhelm styles himself as a
+champion of a bygone age, who lives by the
+knightly codes of valor, justice, and courage.</pre>
+		<pre class="summary" style="color: #f99e1a">Over thirty years ago, Overwatch was
+founded to counter the threat of the robot
+uprisings around the world. Reinhardt, a
+highly decorated German soldier, was inducted
+as part of the original Overwatch strike team
+that put an end to the Omnic Crisis. After the
+conflict's resolution, Overwatch grew into a
+global institution, keeping the peace in a
+war-torn world. Reinhardt proved himself to
+be one of its most stalwart champions.</pre>
+		<pre class="summary">Reinhardt's unique ethics and
+larger-than-life persona earned the admiration
+of his peers and superiors alike. Never afraid
+to speak his mind, he was Overwatch's most vocal
+supporter and, when necessary, its harshest
+critic, providing a constant reminder that
+Overwatch was meant to be a force for good.</pre>
+		<pre class="summary" style="color: #f99e1a">Having served into his late
+fifties, Reinhardt was faced with mandatory
+retirement from combat operations. Despondent
+about being removed from active duty, Reinhardt
+feared that his days of purpose and glory had
+ended. As times grew darker and Overwatch came
+under suspicion of corruption and sedition,
+Reinhardt could only watch as the cause he had
+dedicated his life to defending
+surrendered in disgrace.</pre>
+		<pre class="summary">Though Overwatch was eventually
+disbanded, Reinhardt was not content to sit
+idly by while the world fell to disorder. Once
+again donning his Crusader armor, he has vowed
+to fight for justice across Europe like a
+knight of old, defending the innocent and
+winning hearts and minds with the promise of
+better days to come.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/reinhardt/rockethammer.png" alt="Rocket Hammer" title="Rocket Hammer"><span class="skillname">Rocket Hammer</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Melee</li>
+    				<li><mark>Max Range:</mark> 5 Meters</li>
+    				<li><mark>Damage:</mark> 75/Swing</li>
+    				<li><mark>Rate of Fire:</mark> 1 Swing/0.9 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/reinhardt/barrierfield.png" alt="Barrier Field" title="Barrier Field"><span class="skillname">Barrier Field</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Health:</mark> 2000</li>
+    				<li><mark>Healing:</mark> 195 Shield/Sec After Being Down for 2 Seconds</li>
+    				<li><mark>Cooldown:</mark> 5 Seconds After Being Broken</li>
+    			</ul>
+    		</td>
+    		<td class="description">Reinhardt projects a broad, forward-facing energy barrier, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the barrier, he cannot attack while sustaining it.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/reinhardt/charge.png" alt="Charge" title="Charge"><span class="skillname">Charge</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Damage:</mark> Pin - 1 Second Stun; Wall Collision - 300; Bump - 50</li>
+    				<li><mark>Max Range:</mark> 55 Meters</li>
+    				<li><mark>Cast Time:</mark> 0.7 Seconds</li>
+    				<li><mark>Cooldown:</mark> 10 Seconds; 3 Seconds if Interrupted</li>
+    			</ul>
+    		</td>
+    		<td class="description">Reinhardt charges forth in a straight line, pinning the first enemy in his path and knocking others aside. If he collides with a wall, the foe he’s carrying suffers extreme damage.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/reinhardt/firestrike.png" alt="Fire Strike" title="Fire Strike"><span class="skillname">Fire Strike</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Piercing Projectile</li>
+    				<li><mark>Damage:</mark> 100</li>
+    				<li><mark>Cast Time:</mark> 0.6 Seconds; 1.2 Seconds Full Animation</li>
+    				<li><mark>Cooldown:</mark> 6 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/reinhardt/earthshatter.png" alt="Ultimate: Earthshatter" title="Ultimate: Earthshatter"><span class="skillname">Ultimate: Earthshatter</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Area of Effect</li>
+    				<li><mark>Max Range:</mark> 20 Meters</li>
+    				<li><mark>Cast Time:</mark> 0.6 Seconds</li>
+    				<li><mark>Duration:</mark> 2.5 Second Stun</li>
+    				<li><mark>Damage:</mark> 50</li>
+    				<li><mark>Charge Required:</mark> 1375 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">Reinhardt forcefully slams his Rocket Hammer into the ground, knocking down and damaging all enemies in front of him.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/reinhardt/classic.jpg" id="swap" alt="Reinhardt Skins" title="Classic Reinhardt">
+    	<table>
+    		<tr>
+    		<th colspan="5">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/brass.jpg'; document.getElementById('swap').title='Brass'">Brass</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/cobalt.jpg'; document.getElementById('swap').title='Cobalt'">Cobalt</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/copper.jpg'; document.getElementById('swap').title='Copper'">Copper</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/viridian.jpg'; document.getElementById('swap').title='Viridian'">Viridian</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/bundeswehr.jpg'; document.getElementById('swap').title='Bundeswehr'">Bundeswehr</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/paragon.jpg'; document.getElementById('swap').title='Paragon'">Paragon</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/coldhardt.jpg'; document.getElementById('swap').title='Coldhardt'">Coldhardt</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/reinhardt/lieutenantwilhelm.jpg'; document.getElementById('swap').title='Lieutenant Wilhelm'">Lieutenant Wilhelm</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/blackhardt.jpg'; document.getElementById('swap').title='Blackhardt'">Blackhardt</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/bloodhardt.jpg'; document.getElementById('swap').title='Bloodhardt'">Bloodhardt</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/lionhardt.jpg'; document.getElementById('swap').title='Lionhardt'">Lionhardt</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/reinhardt/stonehardt.jpg'; document.getElementById('swap').title='Stonehardt'">Stonehardt</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/crusader.jpg'; document.getElementById('swap').title='Crusader'">Crusader</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/balderich.jpg'; document.getElementById('swap').title='Balderich'">Balderich</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/reinhardt/greifhardt.jpg'; document.getElementById('swap').title='Greifhardt'">Greifhardt</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/reinhardt/wujing.jpg'; document.getElementById('swap').title='Wujing'">Wujing</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 135px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/flex.gif'; document.getElementById('emoteswap').title='Flex'">Flex</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/reinhardt/kneel.gif'; document.getElementById('emoteswap').title='Kneel'">Kneel</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/taunt.gif'; document.getElementById('emoteswap').title='Taunt'">Taunt</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/uproarious.gif'; document.getElementById('emoteswap').title='Uproarious'">Uproarious</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/warriorssalute.gif'; document.getElementById('emoteswap').title='Warriors Salute'">Warrior's Salute</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/pumpkinsmash.gif'; document.getElementById('emoteswap').title='Pumpkin Smash'">Pumpkin Smash</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/reinhardt/sweethardt.gif'; document.getElementById('emoteswap').title='Sweethardt'">Sweethardt</button></li>
+    	</ul>
+    	<img src="img/reinhardt/heroic.gif" id="emoteswap" alt="Reinhardt Emotes" title="Reinhardt Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 265px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/reinhardt/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/reinhardt/charge.gif'; document.getElementById('highlightswap').title='Charge'">Charge</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/reinhardt/hammerdown.gif'; document.getElementById('highlightswap').title='Hammer Down'">Hammer Down</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/reinhardt/morestretchingrequired.gif'; document.getElementById('highlightswap').title='More Stretching'">More Stretching Required</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/reinhardt/snowballfight.gif'; document.getElementById('highlightswap').title='Snowball Fight'">Snowball Fight</button></li>
+    	</ul>
+    	<img src="img/reinhardt/heroic_intro.gif" id="highlightswap" alt="Reinhardt Highlight Intros" title="Reinhardt Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/reinhardt/barrier.jpg" style="width:100%">
+	    	<div class="caption">Barrier</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/reinhardt/hammerdown.jpg" style="width:100%">
+	    	<div class="caption">Hammer Down</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/reinhardt/helm.jpg" style="width:100%">
+	    	<div class="caption">Helm</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/reinhardt/stein.jpg" style="width:100%">
+	    	<div class="caption">Stein</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/reinhardt/charge.jpg" style="width:100%">
+	    	<div class="caption">Charge</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/reinhardt/cracks.jpg" style="width:100%">
+	    	<div class="caption">Cracks</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/reinhardt/crusader_spray.jpg" style="width:100%">
+	    	<div class="caption">Crusader</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/reinhardt/crusader1_spray.jpg" style="width:100%">
+	    	<div class="caption">Crusader</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/reinhardt/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/reinhardt/earthshatter.jpg" style="width:100%">
+	    	<div class="caption">Earth Shatter</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/reinhardt/emblem.jpg" style="width:100%">
+	    	<div class="caption">Emblem</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/reinhardt/firestrike.jpg" style="width:100%">
+	    	<div class="caption">Fire Strike</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/reinhardt/glorious.jpg" style="width:100%">
+	    	<div class="caption">Glorious</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/reinhardt/honor.jpg" style="width:100%">
+	    	<div class="caption">Honor</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/reinhardt/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/reinhardt/knight.jpg" style="width:100%">
+	    	<div class="caption">Knight</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/reinhardt/lion.jpg" style="width:100%">
+	    	<div class="caption">Lion</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/reinhardt/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/reinhardt/roar.jpg" style="width:100%">
+	    	<div class="caption">Roar</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/reinhardt/royal.jpg" style="width:100%">
+	    	<div class="caption">Royal</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/reinhardt/shieldup.jpg" style="width:100%">
+	    	<div class="caption">Shield Up</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/reinhardt/swing.jpg" style="width:100%">
+	    	<div class="caption">Swing</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/reinhardt/vigilant.jpg" style="width:100%">
+	    	<div class="caption">Vigilant</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/reinhardt/white.jpg" style="width:100%">
+	    	<div class="caption">White</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/reinhardt/wilhelm.jpg" style="width:100%">
+	    	<div class="caption">Wilhelm</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/reinhardt/wrestle.jpg" style="width:100%">
+	    	<div class="caption">Wrestle</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/reinhardt/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/reinhardt/confident.jpg" alt="Confident" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/reinhardt/flex.jpg" alt="Flex" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/reinhardt/legendary.jpg" alt="Legendary" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/reinhardt/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/reinhardt/toast.jpg" alt="Toast" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+			<img src="img/reinhardt/kneel.jpg" alt="Kneel" onclick="myFunction(this);">
+		</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<img src="img/reinhardt_footer.png" class="footerlogo">
+		<img src="img/overwatch_logo.png" style="width: 200px; float: right; margin-top: 200px">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+		<a href="#top" style="float: right" class="navbarbottom">Top</a>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

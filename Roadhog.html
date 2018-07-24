@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roadhog</title>
+	<link rel="stylesheet" type="text/css" href="CSS/hero.css">
+	<style>
+		@font-face { font-family: bignoodle; src: url('big_noodle.ttf'); }
+		@font-face { font-family: lato; src: url('lato_black.ttf'); }
+		.test:active:after {}
+	</style>
+</head>
+
+<body>
+	<header>
+	<img src="img/banner.jpg" class="banner">
+	<div class="navbar" id="top">
+		<a href="Index.html">Home</a>
+		<a href="Heroes.html">Heroes</a>
+		<a href="Maps.html">Maps</a>
+		<a href="Lore.html">Lore</a>
+	</div>
+	</header>
+
+	<div class="intro"> 
+		<img src="img/roadhog/roadhog.png" class="portrait" alt="Roadhog" title="Roadhog">
+		<ul class="bio">
+		<li>Name: Mako Rutledge</li>
+		<br/>
+		<li>Age: 48</li>
+		<br/>
+		<li>Role:  Tank  <img src="img/tank.png" style="width: 25px"></li>
+		<br/>
+		<li>Difficulty:  <img src="img/star.png"></li>
+		<br/>
+		<li>Nationality: Australian</li>
+		<br/>
+		<li>Voice Actor: Josh Petersdorf</li>
+		</ul>
+		<br/>
+		<h1>Roadhog</h1>
+		<h3>"I'm gonna make you squeal."</h3>
+	</div>
+
+	<div class="story">
+		<h2>Bio</h2>
+		<pre class="summary">Roadhog uses his signature Chain Hook to
+pull his enemies close before shredding them
+with blasts from his Scrap Gun. He’s hardy
+enough to withstand tremendous damage, and can
+recover his health with a short breather.</pre>
+		<hr/>
+    	<h2>Story</h2>
+    	<pre class="summary">Roadhog is a ruthless killer with a well-earned
+reputation for cruelty and wanton destruction.</pre>
+		<pre class="summary" style="color: #f99e1a">After the Omnic Crisis, government officials gifted
+the Australian omnium and the surrounding area
+to the omnics that had nearly destroyed their
+country, hoping to establish a long-term peace
+accord. This arrangement permanently displaced
+Mako Rutledge and a large number of the Outback's
+residents, a scattered collection of survivalists,
+solar farmers, and people who just
+wanted to be left alone.</pre>
+		<pre class="summary">Furious over the loss of their homes, Mako and others
+turned to violent rebellion. They formed the
+Australian Liberation Front and struck against the
+omnium and its robot population to take back the
+lands that had been stolen. Events continued to
+escalate until the rebels sabotaged the omnium's
+fusion core, resulting in an explosion that
+destroyed the facility, irradiated the region, and
+littered the Outback with twisted metal and
+wreckage for kilometers around.</pre>
+		<pre class="summary" style="color: #f99e1a">Mako watched as his home became an apocalyptic
+wasteland, and he was forever changed.</pre>
+		<pre class="summary">Adapting to his environment, he donned a mask
+and took to the broken highways of the Outback on
+his ramshackle chopper. Little by little, his
+humanity was forgotten. The last vestiges of Mako
+faded away and the ruthless killer
+Roadhog was born.</pre>
+	</div>
+
+	<div class="skills">
+    	<h2>Skills</h2>
+    	<table>
+    		<tr>
+    			<th>Skill</th>
+    			<th>Stats</th>
+    			<th>Description</th>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/roadhog/scrapgun.png" alt="Scrap Gun" title="Scrap Gun"><span class="skillname">Scrap Gun</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Shotgun Projectile; Linear Shotgun Projectile</li>
+    				<li><mark>Damage:</mark> 1.33 - 6/Pellet; 50/Shot, 6/Pellet</li>
+    				<li><mark>Number of Pellets:</mark> 25/Shot; 25/Shot</li>
+    				<li><mark>Spread Angle:</mark> Constant 20.1 Degrees; N/A</li>
+    				<li><mark>Max Range:</mark> N/A; 9 Meters</li>
+    				<li><mark>Rate of Fire:</mark> 1 Shot/0.7 Seconds</li>
+    				<li><mark>Ammo:</mark> 5</li>
+    				<li><mark>Reload Time:</mark> 1.5 Seconds</li>
+    				<li><mark>Cast Time:</mark> N/A; 0.143 Second Fuse</li>
+    			</ul>
+    		</td>
+    		<td class="description">Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread. Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/roadhog/takeabreather.png" alt="Take A Breather" title="Take A Breather"><span class="skillname">Take A Breather</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Healing:</mark> 300</li>
+    				<li><mark>Damage Reduction:</mark> 50%</li>
+    				<li><mark>Cast Time:</mark> 0.5 Seconds; 2 Seconds Full Animation</li>
+    				<li><mark>Cooldown:</mark> 8 Seconds</li>
+    				<li><mark>Duration:</mark> 1 Second</li>
+    			</ul>
+    		</td>
+    		<td class="description">Roadhog restores a chunk of his health over a brief period of time.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/roadhog/chainhook.png" alt="Chain Hook" title="Chain Hook"><span class="skillname">Chain Hook</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Linear Projectile</li>
+    				<li><mark>Max Range:</mark> 20 Meters</li>
+    				<li><mark>Damage:</mark> 30</li>
+    				<li><mark>Cooldown:</mark> 8 Seconds</li>
+    			</ul>
+    		</td>
+    		<td class="description">Roadhog hurls his chain at a target; if it catches, he yanks them into close range.</td>
+    		</tr>
+    		<tr>
+    		<td class="skill"><img src="img/roadhog/wholehog.png" alt="Whole Hog" title="Whole Hog"><span class="skillname">Whole Hog</span></td>
+    		<td class="stats">
+    			<ul>
+    				<li><mark>Type:</mark> Rapid Fire Shotgun</li>
+    				<li><mark>Damage:</mark> 5000 Over the Full Duration</li>
+    				<li><mark>Number of Pellets:</mark> 12/Shot</li>
+    				<li><mark>Rate of Fire:</mark> 7.5 Shots/Sec</li>
+    				<li><mark>Cast Time:</mark> 0.5 Seconds</li>
+    				<li><mark>Duration:</mark> 6 Seconds</li>
+    				<li><mark>Charge Required:</mark> 2000 Points</li>
+    			</ul>
+    		</td>
+    		<td class="description">After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies.</td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator"/>
+    <div class="skins">
+    	<h2>Skins</h2>
+    	<img src="img/roadhog/classic.jpg" id="swap" alt="Roadhog Skins" title="Classic Roadhog">
+    	<table>
+    		<tr>
+    		<th colspan="6">Click to view</th>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/classic.jpg'; document.getElementById('swap').title='Classic'">Classic</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/kiwi.jpg'; document.getElementById('swap').title='Kiwi'">Kiwi</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/mud.jpg'; document.getElementById('swap').title='Mud'">Mud</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/sand.jpg'; document.getElementById('swap').title='Sand'">Sand</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/roadhog/thistle.jpg'; document.getElementById('swap').title='Thistle'">Thistle</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/pigpen.jpg'; document.getElementById('swap').title='Pigpen'">Pigpen</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/stitched.jpg'; document.getElementById('swap').title='Stitched'">Stitched</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/islander.jpg'; document.getElementById('swap').title='Islander'">Islander</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/toa.jpg'; document.getElementById('swap').title='Toa'">Toa</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/mako.jpg'; document.getElementById('swap').title='Mako'">Mako</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/sharkbait.jpg'; document.getElementById('swap').title='Sharkbait'">Sharkbait</button></td>
+    		</tr>
+    		<tr>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/rudolph.jpg'; document.getElementById('swap').title='Rudolph'">Rudolph</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/butcher.jpg'; document.getElementById('swap').title='Butcher'">Butcher</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/junkensteinsmonster.jpg'; document.getElementById('swap').title='Junkensteins Monster'">Junkenstein's Monster</button></td>
+    		<td><button onclick="document.getElementById('swap').src='img/roadhog/icefisherman.jpg'; document.getElementById('swap').title='Ice Fisherman'">Ice Fisherman</button></td>
+    		<td colspan="2"><button onclick="document.getElementById('swap').src='img/roadhog/bajie.jpg'; document.getElementById('swap').title='Bajie'">Bajie</button></td>
+    		</tr>
+    	</table>
+    </div>
+    <hr class="separator1"/>
+    <div class="emotes">
+    	<h2>Emotes</h2>
+    	<ul style="margin-left: 125px">
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/heroic.gif'; document.getElementById('emoteswap').title='Heroic'">Heroic</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/bellylaugh.gif'; document.getElementById('emoteswap').title='Belly Laugh'">Belly Laugh</button></li>
+    	<li><button onclick="document.getElementById('emoteswap').src='img/roadhog/boo.gif'; document.getElementById('emoteswap').title='Boo!'">Boo!</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/cancrusher.gif'; document.getElementById('emoteswap').title='Can Crusher'">Can Crusher</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/headbanging.gif'; document.getElementById('emoteswap').title='Headbanging'">Headbanging</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/tuckeredout.gif'; document.getElementById('emoteswap').title='Tuckered Out'">Tuckered Out</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/secretfriend.gif'; document.getElementById('emoteswap').title='Secret Friend'">Secret Friend</button></li>
+    	<li style="padding: 0 35px"><button onclick="document.getElementById('emoteswap').src='img/roadhog/dance.gif'; document.getElementById('emoteswap').title='Dance'">Dance</button></li>
+    	</ul>
+    	<img src="img/roadhog/heroic.gif" id="emoteswap" alt="Roadhog Emotes" title="Roadhog Heroic">
+    </div>
+    <hr class="separator">
+    <div class="highlight">
+    	<h2>Highlight Intros</h2>
+    	<ul style="margin-left: 250px">
+    	<li><button onclick="document.getElementById('highlightswap').src='img/roadhog/heroic_intro.gif'; document.getElementById('highlightswap').title='Heroic'">Heroic</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/roadhog/littlepiggy.gif'; document.getElementById('highlightswap').title='Little Piggy'">Little Piggy</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/roadhog/saycheese.gif'; document.getElementById('highlightswap').title='Say Cheese'">Say "Cheese"</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/roadhog/wholehog.gif'; document.getElementById('highlightswap').title='Whole Hog'">Whole Hog</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/roadhog/footsteps.gif'; document.getElementById('highlightswap').title='Footsteps...'">Footsteps...</button></li>
+    	<li><button onclick="document.getElementById('highlightswap').src='img/roadhog/feast.gif'; document.getElementById('highlightswap').title='Feast'">Feast</button></li>
+    	</ul>
+    	<img src="img/roadhog/heroic_intro.gif" id="highlightswap" alt="Roadhog Highlight Intros" title="Roadhog Heroic">
+    </div>
+    <hr class="separator1"/>
+    <div class="spraycontainer">
+    	<h2>Sprays</h2>
+		<div class="slides fade">
+	    	<div class="numbertext">1 / 26</div>
+	    	<img src="img/roadhog/breathin.jpg" style="width:100%">
+	    	<div class="caption">Breathin'</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">2 / 26</div>
+	    	<img src="img/roadhog/gotcha.jpg" style="width:100%">
+	    	<div class="caption">Gotcha</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">3 / 26</div>
+	    	<img src="img/roadhog/herepiggy.jpg" style="width:100%">
+	    	<div class="caption">Here Piggy</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">4 / 26</div>
+	    	<img src="img/roadhog/hooked.jpg" style="width:100%">
+	    	<div class="caption">Hooked</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">5 / 26</div>
+	    	<img src="img/roadhog/wanted.jpg" style="width:100%">
+	    	<div class="caption">Wanted</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">6 / 26</div>
+	    	<img src="img/roadhog/butcher_spray.jpg" style="width:100%">
+	    	<div class="caption">Butcher</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">7 / 26</div>
+	    	<img src="img/roadhog/cute.jpg" style="width:100%">
+	    	<div class="caption">Cute</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">8 / 26</div>
+	    	<img src="img/roadhog/deepthoughts.jpg" style="width:100%">
+	    	<div class="caption">Deep Thoughts</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">9 / 26</div>
+	    	<img src="img/roadhog/emblem.jpg" style="width:100%">
+	    	<div class="caption">Emblem</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">10 / 26</div>
+	    	<img src="img/roadhog/eyes.jpg" style="width:100%">
+	    	<div class="caption">Eyes</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">11 / 26</div>
+	    	<img src="img/roadhog/freepig.jpg" style="width:100%">
+	    	<div class="caption">Free Pig</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">12 / 26</div>
+	    	<img src="img/roadhog/freshmeat.jpg" style="width:100%">
+	    	<div class="caption">Fresh Meat</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">13 / 26</div>
+	    	<img src="img/roadhog/grandtheft.jpg" style="width:100%">
+	    	<div class="caption">Grand Theft</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">14 / 26</div>
+	    	<img src="img/roadhog/helmet.jpg" style="width:100%">
+	    	<div class="caption">Helmet</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">15 / 26</div>
+	    	<img src="img/roadhog/hogpower.jpg" style="width:100%">
+	    	<div class="caption">Hogpower</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">16 / 26</div>
+	    	<img src="img/roadhog/icon.jpg" style="width:100%">
+	    	<div class="caption">Icon</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">17 / 26</div>
+	    	<img src="img/roadhog/left.jpg" style="width:100%">
+	    	<div class="caption">Left</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">18 / 26</div>
+	    	<img src="img/roadhog/license.jpg" style="width:100%">
+	    	<div class="caption">License</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">19 / 26</div>
+	    	<img src="img/roadhog/mako_spray.jpg" style="width:100%">
+	    	<div class="caption">Mako</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">20 / 26</div>
+	    	<img src="img/roadhog/nopork.jpg" style="width:100%">
+	    	<div class="caption">No Pork</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">21 / 26</div>
+	    	<img src="img/roadhog/piggy.jpg" style="width:100%">
+	    	<div class="caption">Piggy</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">22 / 26</div>
+	    	<img src="img/roadhog/pixel.jpg" style="width:100%">
+	    	<div class="caption">Pixel</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">23 / 26</div>
+	    	<img src="img/roadhog/popper.jpg" style="width:100%">
+	    	<div class="caption">Popper</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">24 / 26</div>
+	    	<img src="img/roadhog/tails.jpg" style="width:100%">
+	    	<div class="caption">Tails</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">25 / 26</div>
+	    	<img src="img/roadhog/toxic.jpg" style="width:100%">
+	    	<div class="caption">Toxic</div>
+	 	</div>
+	 	<div class="slides fade">
+	    	<div class="numbertext">26 / 26</div>
+	    	<img src="img/roadhog/wildhog.jpg" style="width:100%">
+	    	<div class="caption">Wild Hog</div>
+	 	</div>
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="victory">
+	<h2>Victory Poses</h2>
+	<div class="row1">
+  		<div class="column1">
+    		<img src="img/roadhog/heroic.jpg" alt="Heroic" onclick="myFunction(this);">
+  		</div>
+ 		<div class="column1">
+    		<img src="img/roadhog/pointingtothesky.jpg" alt="Pointing to the Sky" onclick="myFunction(this);">
+ 		</div>
+		<div class="column1">
+		    <img src="img/roadhog/thumbsup.jpg" alt="Thumbs Up" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row2">
+		<div class="column2">
+		    <img src="img/roadhog/tuckeredout.jpg" alt="Tuckered Out" onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/roadhog/rip.jpg" alt="R.I.P." onclick="myFunction(this);">
+		</div>
+		<div class="column2">
+		    <img src="img/roadhog/toast.jpg" alt="Toast" onclick="myFunction(this);">
+		</div>
+	</div>
+	<div class="row3">
+		<div class="column3">
+			<img src="img/roadhog/medal.jpg" alt="Medal" onclick="myFunction(this);">
+		</div>
+		<div class="column3">
+			<img src="img/roadhog/whatsmine.jpg" alt="What's Mine Is Mine" onclick="myFunction(this);">
+		</div>
+		<div class="column3">
+			<img src="img/roadhog/mugshot.jpg" alt="Mug Shot" onclick="myFunction(this);">
+		</div>
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		<img id="expandedImg" style="width:425px">
+		<div id="imgtext"></div>
+	</div>
+</div>
+<hr class="separator"/>
+<div class="close">
+	<footer>
+		<table class="footcol1">
+			<tr>
+				<th>Offense</th>
+			</tr>
+			<tr>
+				<td><a href="Doomfist.html">Doomfist</a></td>
+			</tr>
+			<tr>
+				<td><a href="Genji.html">Genji</a></td>
+			</tr>
+			<tr>
+				<td><a href="McCree.html">McCree</a></td>
+			</tr>
+			<tr>
+				<td><a href="Pharah.html">Pharah</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reaper.html">Reaper</a></td>
+			</tr>
+			<tr>
+				<td><a href="Soldier76.html">Soldier: 76</a></td>
+			</tr>
+			<tr>
+				<td><a href="Sombra.html">Sombra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Tracer.html">Tracer</a></td>
+			</tr>
+		</table>
+		<table class="footcol2">
+			<tr>
+				<th>Defense</th>
+			</tr>
+			<tr>
+				<td><a href="Bastion.html">Bastion</a></td>
+			</tr>
+			<tr>
+				<td><a href="Hanzo.html">Hanzo</a></td>
+			</tr>
+			<tr>
+				<td><a href="Junkrat.html">Junkrat</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mei.html">Mei</a></td>
+			</tr>
+			<tr>
+				<td><a href="Torbjorn.html">Torbjorn</a></td>
+			</tr>
+			<tr>
+				<td><a href="Widowmaker.html">Widowmaker</a></td>
+			</tr>
+		</table>
+		<table class="footcol3">
+			<tr>
+				<th>Tank</th>
+			</tr>
+			<tr>
+				<td><a href="Dva.html">D. Va</a></td>
+			</tr>
+			<tr>
+				<td><a href="Orisa.html">Orisa</a></td>
+			</tr>
+			<tr>
+				<td><a href="Reinhardt.html">Reinhardt</a></td>
+			</tr>
+			<tr>
+				<td><a href="Roadhog.html">Roadhog</a></td>
+			</tr>
+			<tr>
+				<td><a href="Winston.html">Winston</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zarya.html">Zarya</a></td>
+			</tr>
+		</table>
+		<table class="footcol4">
+			<tr>
+				<th>Support</th>
+			</tr>
+			<tr>
+				<td><a href="Ana.html">Ana</a></td>
+			</tr>
+			<tr>
+				<td><a href="Brigitte.html">Brigitte</a></td>
+			</tr>
+			<tr>
+				<td><a href="Lucio.html">Lucio</a></td>
+			</tr>
+			<tr>
+				<td><a href="Mercy.html">Mercy</a></td>
+			</tr>
+			<tr>
+				<td><a href="Moira.html">Moira</a></td>
+			</tr>
+			<tr>
+				<td><a href="Symmetra.html">Symmetra</a></td>
+			</tr>
+			<tr>
+				<td><a href="Zenyatta.html">Zenyatta</a></td>
+			</tr>
+		</table>
+		<img src="img/roadhog_footer.png" class="footerlogo">
+		<img src="img/overwatch_logo.png" style="width: 200px; float: right; margin-top: 200px">
+		<p>Made by Ryan Cash. &copy; 2018</p>
+		<a href="#top" style="float: right" class="navbarbottom">Top</a>
+	</footer>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "inline-block";
+}
+</script>
+</body>
+</html>
